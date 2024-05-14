@@ -107,7 +107,8 @@ CREATE TABLE Feedbacks
 					FOREIGN KEY REFERENCES [Users]([user_id]) ON DELETE CASCADE,
 	feedback_rateStars INT DEFAULT(0),
 	feedback_comment TEXT,
-	feedback_commentDate DATE DEFAULT(GETDATE())
+	feedback_commentDate DATE DEFAULT(GETDATE()),
+	feedback_modifed DATE
 )
 
 CREATE TABLE ImageFeedbacks
@@ -147,7 +148,8 @@ CREATE TABLE [OrderDetails]
 	[type_id] INT CONSTRAINT fk_OrderType_type_id
 			FOREIGN KEY REFERENCES [Types]([type_id]) ON DELETE CASCADE,
 	quantityProduct INT,
-	intoPrice MONEY
+	intoPrice MONEY,
+	status_orderDetails BIT
 )
 
 CREATE TABLE ShoppingCart
