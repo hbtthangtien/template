@@ -23,7 +23,6 @@ CREATE TABLE [Users]
 	DOB DATE,
 	[Image] NVARCHAR(500),
 	role_id INT FOREIGN KEY REFERENCES [Roles](role_id) ON DELETE CASCADE
-	
 )
 
 CREATE TABLE Account
@@ -149,7 +148,7 @@ CREATE TABLE [OrderDetails]
 			FOREIGN KEY REFERENCES [Types]([type_id]) ON DELETE CASCADE,
 	quantityProduct INT,
 	intoPrice MONEY,
-	status_orderDetails BIT
+	status_orderDetails INT DEFAULT(0)
 )
 
 CREATE TABLE ShoppingCart
