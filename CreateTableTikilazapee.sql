@@ -49,10 +49,10 @@ CREATE TABLE [Filters]
 	[nameFilter] NVARCHAR(200)
 )
 
-CREATE TABLE ImageBanners
+CREATE TABLE ImageSliders
 (
-	banner_id INT IDENTITY(1,1) PRIMARY KEY,
-	category_id INT CONSTRAINT fk_ImageBannerCategories_category_id
+	slider_id INT IDENTITY(1,1) PRIMARY KEY,
+	category_id INT CONSTRAINT fk_ImageSlidersCategories_category_id
 				FOREIGN KEY REFERENCES Categories(category_id) ON DELETE CASCADE,
 	nameURL NVARCHAR(200)
 )
