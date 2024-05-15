@@ -40,6 +40,7 @@ CREATE TABLE Categories
 (
 	category_id INT IDENTITY(1,1) PRIMARY KEY,
 	[name] NVARCHAR(200),
+	[nameImage] NVARCHAR(200)
 )
 
 CREATE TABLE [Filters]
@@ -87,6 +88,7 @@ CREATE TABLE Products
 				FOREIGN KEY REFERENCES Stores(store_id) ON DELETE CASCADE,
 	product_name NVARCHAR(500),
 	product_originPrice MONEY,
+	product_percentSale INT,
 	product_importDate DATE DEFAULT(GETDATE()),
 	product_describes TEXT,
 	quantity INT
