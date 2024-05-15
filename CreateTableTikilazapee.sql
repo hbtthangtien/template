@@ -1,4 +1,5 @@
 USE master
+Drop DATABASE Tikilazapee
 GO
 CREATE DATABASE Tikilazapee
 GO

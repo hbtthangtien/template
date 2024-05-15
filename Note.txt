@@ -1,0 +1,4 @@
+thẻ FlashSale có thể thể hiện bằng phần trăm sale của sản phẩm(sản phẩm nào sale nhiều nhất sẽ được đề cử ở thẻ FlashSales)
+(có thể thay đổi fashsale thành top sale thể hiện những sản phẩm có giá sale nhiều nhất do Saller điều chỉnh).
+
+Thẻ Top Product được đánh giá qua mỗi tuần dựa vào lượt bán trên sàn và được để cử thông qua admin
