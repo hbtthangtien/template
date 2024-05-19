@@ -55,7 +55,7 @@ values('Nike'),
 		('Chanel'),
 		('Dior'),
 		('Gucci'),
-		('Iphone'),
+		('Apple'),
 		('Samsung'),
 		('Made in China'),
 		('Hublot'),
@@ -70,7 +70,10 @@ values('Nike'),
 		('Bad Habits'),
 		('Feelex'),
 		('Oxy'),
-		('Made in Vietnam');
+		('Made in Vietnam'),
+		('Vasaline'),
+		('Oppo');
+		
 
 insert into [Stores](store_id, store_name, store_phone, store_address, store_image)
 values(3, 'Khanhdan_Unisex', '012345678', 'Ha Noi', null),
@@ -189,6 +192,7 @@ values(1,'Jacket'),
 		(15,'Memory Stick'),
 		(15,'Sim'),
 		(15,'Headphone'),
+		(15,  'Other Phones'),
 		(15,'Other accessories'),
 		(16,'Vali'),
 		(16,'Travel bags'),
@@ -223,8 +227,26 @@ values (3, 25, 18, 3, 'School Bag', 20, 10,null, 20 ),
 		(6, 44, 18, 5,'Hair wax', 5, null, null, 100),
 		(6, 42, 24, 5, 'The cocoon', 7, 10, null, 30),
 		(6, 43, 24, 5, 'Clean Texture', 10, 20, null, 20),
-		(6, 45, 24, 5, 'Eye Water Proof', 3, null, 40 ),
-		(6,)
+		(6, 45, 24, 5, 'Eye Water Proof', 3, null,null, 40 ),
+		(6,45, 24, 5, 'Fixer Spray',4 ,null, null,20 ),
+		(6,43,25,5, 'Care Body', 5, 10,null,30 ),
+		(6, 45, 24, 5,'Toner', 3, 5, null, 50),
+		(6, 42, 24, 5, 'Hyaluronic Acid', 6,10,null,20 ),
+		(15, 109, 9, 6, 'Air Pod Pro 4', 300, 30, null, 40 ),
+		(15, 109, 9, 6, 'Air Pod Pro 6', 400, 20, null, 20),
+		(15, 109, 18, 6, 'IPX4', 20, 20, null, 25),
+		(15, 109,15,6,'Headphone Lenovo', 50, 25, null, 10 ),
+		(15, 109,18,6,'i7S TWS', 10, 30, null, 39 ),
+		(15, 109,18,6,'Vupa Headphone', 17, 26, null, 59 ),
+		(15, 97,9,6,'Iphone 15 Pro Max', 1299, 25, null, 15 ),
+		(15, 110,26,6,'Oppo Reno11F', 500, 25, null, 20 ),
+		(15, 110,26,6,'Oppo Reno8', 250, 10, null, 21 ),
+		(15, 110, 10, 6, 'Samsung Galaxy Z Fold 5',1000, 20,null, 20 ),
+		(15, 110, 10, 6, 'Samsung Galaxy M14 5',450, 10,null, 5 ),
+		(15, 110, 18, 6, 'ZTE Blade V40',250, 20,null, 4 ),
+
+
+
 
 
 
