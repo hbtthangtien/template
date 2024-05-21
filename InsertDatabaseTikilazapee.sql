@@ -7,15 +7,15 @@ values ('Admin'),
 		('Customer');
 
 Insert into [Users]( fullname, phoneNumber, email, gender, [address], DOB, [Image], role_id )
-values ('Admin',null,'admin123@123.admin', 2, null, null, '2024-5-15', 1),
-		(N'Phạm Hoàng Anh', '0853082922', 'pham94729@gmail.com', 1, 'Than Uyen-Lai Chau','2003-03-20',null,  3),
-		(N'Nguyễn Quốc Khánh', '0234112233', 'khanhnqhe173524@fpt.edu.vn', 1, 'Ninh Binh', '2003-09-11', null, 2),
-		(N'Nguyễn Mạnh Hùng', '0123112233', 'hungnmhe176678@fpt.edu.vn', 1, 'Ha Nam', '2003-11-04', null,  2),
-		(N'Bùi Đức Tùng', '09999999999', 'tungbdhe170285@fpt.edu.vn', 1, 'Thach That - Ha Noi','2003-01-01', null, 2),
-		(N'Trần Việt Thịnh', '0888888888', 'thinhtvhe170782@fpt.edu.vn', 1, 'Ha Noi', '2003-02-01', null, 2),
-		(N'Nguyễn Xuân Vĩ', '02401948', 'vinxhe172309@fpt.edu.vn', 1, 'Ha Noi', '02-02-2003', null, 3),
-		(N'Trần Quang Trường', '03401948', 'truongtqhe172652@fpt.edu.vn', 1, 'Ha Noi', '2003-03-02', null, 2),
-		(N'Giang Minh Phương', '022222222', 'phuonggmhe182324@fpt.edu.vn', 0, 'Ha Noi','2003-04-05', null,  3);
+values ('Admin',null,'admin123@123.admin', 2, null, '2024-5-15', 'image\image_avatar_user\Admin.jpg',  1),
+		(N'Phạm Hoàng Anh', '0853082922', 'pham94729@gmail.com', 1, 'Than Uyen-Lai Chau','2003-03-20','image\image_avatar_user\avataruser(1).jpg',  3),
+		(N'Nguyễn Quốc Khánh', '0234112233', 'khanhnqhe173524@fpt.edu.vn', 1, 'Ninh Binh', '2003-09-11', 'image\image_avatar_user\avataruser(1).jpg', 2),
+		(N'Nguyễn Mạnh Hùng', '0123112233', 'hungnmhe176678@fpt.edu.vn', 1, 'Ha Nam', '2003-11-04', 'image\image_avatar_user\avataruser(1).jpg',  2),
+		(N'Bùi Đức Tùng', '09999999999', 'tungbdhe170285@fpt.edu.vn', 1, 'Thach That - Ha Noi','2003-01-01', 'image\image_avatar_user\avataruser(1).jpg', 2),
+		(N'Trần Việt Thịnh', '0888888888', 'thinhtvhe170782@fpt.edu.vn', 1, 'Ha Noi', '2003-02-01', 'image\image_avatar_user\avataruser(1).jpg', 2),
+		(N'Nguyễn Xuân Vĩ', '02401948', 'vinxhe172309@fpt.edu.vn', 1, 'Ha Noi', '02-02-2003', 'image\image_avatar_user\avataruser(1).jpg', 3),
+		(N'Trần Quang Trường', '03401948', 'truongtqhe172652@fpt.edu.vn', 1, 'Ha Noi', '2003-03-02', 'image\image_avatar_user\avataruser(2).jpg', 2),
+		(N'Giang Minh Phương', '022222222', 'phuonggmhe182324@fpt.edu.vn', 0, 'Ha Noi','2003-04-05', 'image\image_avatar_user\avataruser(0).jpg',  3);
 
 Insert into [Account]([user_id], [username],[password],[startDate],[auth])
 values(1,'admin','admin','2024-05-15',1),
@@ -29,22 +29,22 @@ values(1,'admin','admin','2024-05-15',1),
 		(9, 'phuongmi', 'phuong123', '2024-05-14',0);
 
 Insert into [Categories] ( [name], [nameImage] )
-values ('Man Fashion',null),
-		('Woman Fashion',null),
-		('Balo',null),
-		('Electronic Device',null),
-		('Laptop & PC',null),
-		('Cosmetic',null),
-		('Shoes',null),
-		('Toys',null),
-		('Houseware',null),
-		('Pets',null),
-		('Department store',null),
-		('Mom & Baby',null),
-		('Heath',null),
-		('Book',null),
-		('phones and accessories',null),
-		('Sport',null);
+values ('Man Fashion','image\image_logo\image_logo_categories'),
+		('Woman Fashion','image\image_logo\image_logo_categories'),
+		('Balo','image\image_logo\image_logo_categories'),
+		('Electronic Device','image\image_logo\image_logo_categories\thietbidientu.jpg'),
+		('Laptop & PC','image\image_logo\image_logo_categories\Laptop.jpg'),
+		('Cosmetic','image\image_logo\image_logo_categories\mypham.jpg'),
+		('Shoes','image\image_logo\image_logo_categories'),
+		('Toys','image\image_logo\image_logo_categories'),
+		('Houseware','image\image_logo\image_logo_categories\dogiadung.jpg'),
+		('Pets','image\image_logo\image_logo_categories'),
+		('Department store','image\image_logo\image_logo_categories'),
+		('Mom & Baby','image\image_logo\image_logo_categories'),
+		('Heath','image\image_logo\image_logo_categories\suckhoe.jpg'),
+		('Book','image\image_logo\image_logo_categories\sach.jpg'),
+		('phones and accessories','image\image_logo\image_logo_categories\dienthoai.jpg'),
+		('Sport','image\image_logo\image_logo_categories\thethao.jpg');
 
 Insert into [Brands](brandName)
 values('Nike'),
@@ -766,3 +766,24 @@ values (1,'image\image_product\image_balos\1_SchoolBag_01.jpg'),
 		(109, 'image\image_product\image_shoes\4_Shoes_NikeJordan_02.jpg'),
 		(109, 'image\image_product\image_shoes\4_Shoes_NikeJordan_03.jpg'),
 		(109, 'image\image_product\image_shoes\4_Shoes_NikeJordan_04.jpg');
+
+Insert into ImageSliders( category_id, nameURL)
+values (1, 'image\image_sliders\2_banner_aonam_01.jpg'),
+		(1, 'image\image_sliders\2_banner_aonam_02.jpg'),
+		(1, 'image\image_sliders\2_banner_aonam_03.jpg'),
+		(2, 'image\image_sliders\8_banner_thoitrangnu_01.jpg'),
+		(2, 'image\image_sliders\8_banner_thoitrangnu_02.jpg'),
+		(2, 'image\image_sliders\8_banner_thoitrangnu_03.jpg'),
+		(7, 'image\image_sliders\1_banner_giaythethaonam_01.jpg'),
+		(7, 'image\image_sliders\1_banner_giaythethaonam_02.jpg'),
+		(7, 'image\image_sliders\1_banner_giaythethaonam_03.jpg'),
+		(7, 'image\image_sliders\1_banner_giaythethaonam_04.jpg'),
+		(6, 'image\image_sliders\3_banner_mypham_01.jpg'),
+		(6, 'image\image_sliders\3_banner_mypham_02.jpg'),
+		(6, 'image\image_sliders\3_banner_mypham_03.jpg'),
+		(9, 'image\image_sliders\6_banner_dogiadung_01.jpg'),
+		(9, 'image\image_sliders\6_banner_dogiadung_02.jpg'),
+		(9, 'image\image_sliders\6_banner_dogiadung_03.jpg'),
+		(15, 'image\image_sliders\7_banner_dienthoai_01.jpg'),
+		(15, 'image\image_sliders\7_banner_dienthoai_02.jpg'),
+		(15, 'image\image_sliders\7_banner_dienthoai_03.jpg');
