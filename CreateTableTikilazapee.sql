@@ -89,7 +89,7 @@ CREATE TABLE Products
 	product_originPrice MONEY,
 	product_percentSale INT,
 	product_importDate DATE DEFAULT(GETDATE()),
-	product_describes TEXT,
+	product_describes NVARCHAR(MAX),
 	quantity INT
 )
 
