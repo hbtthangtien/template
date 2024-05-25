@@ -1,0 +1,45 @@
+.register-page{
+    background-color: rgba(102, 190, 167, 0.126);
+    height: 100vh;
+    width: 100vw;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    
+}
+.row.register-form{
+    margin-top: 30px;
+    display: flex;
+    
+    height: 90vh;
+    width: 50vw;
+    background-color: aliceblue;
+    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.register-form-section form{
+    display: flex;
+    justify-content: space-around;
+}
+.gender{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.register-form .input-box{
+    margin-left: 40px;
+    width: 80%;
+}
+.register-form .input-box input{
+    width: 80%;
+    height: 10%;
+}
+.main-tilte.text-center h1{
+    color: rgb(30, 106, 106);
+}
+.register-button{
+    padding: 10px;
+    border-radius: 10px;
+}
