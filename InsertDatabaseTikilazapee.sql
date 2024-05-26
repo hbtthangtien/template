@@ -17,16 +17,16 @@ values ('Admin',null,'admin123@123.admin', 2, null, '2024-5-15', 'image\image_av
 		(N'Trần Quang Trường', '03401948', 'truongtqhe172652@fpt.edu.vn', 1, 'Ha Noi', '2003-03-02', 'image\image_avatar_user\avataruser(2).jpg', 2),
 		(N'Giang Minh Phương', '022222222', 'phuonggmhe182324@fpt.edu.vn', 0, 'Ha Noi','2003-04-05', 'image\image_avatar_user\avataruser(0).jpg',  3);
 
-Insert into [Account]([user_id], [username],[password],[startDate],[auth])
-values(1,'admin','admin','2024-05-15',1),
-		(2,'anhpro123','Anhpro123','2024-05-14',0),
-		(3,'khanhnguyen','khanh123', '2024-05-14', 0),
-		(4,'hungnguyen','hung123', '2024-05-14',0),
-		(5,'tungbui', 'tung123', '2024-05-14',0),
-		(6,'vietthinh', 'thinh123','2024-05-14',0),
-		(7,'vingungoc', 'vingungoc', '2024-05-14',0),
-		(8,'truongtran', 'truong123', '2024-05-14',0),
-		(9, 'phuongmi', 'phuong123', '2024-05-14',0);
+Insert into [Account]([user_id], [username],[password],[auth])
+values(1,'admin','hWDiHEHT7apkvFuUXJOlIUv6SZW4c45Hq6C3wA==',1),
+		(2,'anhpro123','hWDiHEHT7apkvFuUXJOlIUv6SZW4c45Hq6C3wA==',0),
+		(3,'khanhnguyen','hWDiHEHT7apkvFuUXJOlIUv6SZW4c45Hq6C3wA==', 0),
+		(4,'hungnguyen','hWDiHEHT7apkvFuUXJOlIUv6SZW4c45Hq6C3wA==',0),
+		(5,'ductung1706', 'hWDiHEHT7apkvFuUXJOlIUv6SZW4c45Hq6C3wA==',0),
+		(6,'vietthinh', 'hWDiHEHT7apkvFuUXJOlIUv6SZW4c45Hq6C3wA==',0),
+		(7,'vingungoc', 'hWDiHEHT7apkvFuUXJOlIUv6SZW4c45Hq6C3wA==',0),
+		(8,'truongtran', 'hWDiHEHT7apkvFuUXJOlIUv6SZW4c45Hq6C3wA==',0),
+		(9, 'phuongmi', 'hWDiHEHT7apkvFuUXJOlIUv6SZW4c45Hq6C3wA==',0);
 
 Insert into [Categories] ( [name], [nameImage] )
 values ('Man Fashion','image\image_logo\image_logo_categories'),

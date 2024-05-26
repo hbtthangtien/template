@@ -89,7 +89,7 @@ CREATE TABLE Products
 	product_originPrice MONEY,
 	product_percentSale INT,
 	product_importDate DATE DEFAULT(GETDATE()),
-	product_describes TEXT,
+	product_describes NVARCHAR(MAX),
 	quantity INT
 )
 
@@ -107,7 +107,7 @@ CREATE TABLE Feedbacks
 	customer_id INT CONSTRAINT fk_FeedbacksUsers_user_id
 					FOREIGN KEY REFERENCES [Users]([user_id]) ON DELETE CASCADE,
 	feedback_rateStars INT DEFAULT(0),
-	feedback_comment TEXT,
+	feedback_comment NVARCHAR(MAX),
 	feedback_commentDate DATE DEFAULT(GETDATE()),
 	feedback_modifed DATE
 )
