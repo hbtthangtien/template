@@ -106,6 +106,8 @@ CREATE TABLE Feedbacks
 	feedback_id INT IDENTITY(1,1) PRIMARY KEY,
 	customer_id INT CONSTRAINT fk_FeedbacksUsers_user_id
 					FOREIGN KEY REFERENCES [Users]([user_id]) ON DELETE CASCADE,
+	product_id INT CONSTRAINT fk_FeedbacksProduct_product_id
+					FOREIGN KEY REFERENCES [Products]([product_id]),
 	feedback_rateStars INT DEFAULT(0),
 	feedback_comment NVARCHAR(MAX),
 	feedback_commentDate DATE DEFAULT(GETDATE()),

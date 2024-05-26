@@ -2937,3 +2937,15 @@ values (1, 'image\image_sliders\2_banner_aonam_01.jpg'),
 		(15, 'image\image_sliders\7_banner_dienthoai_02.jpg'),
 		(15, 'image\image_sliders\7_banner_dienthoai_03.jpg');
 
+
+
+INSERT INTO [dbo].[Feedbacks]
+           ([customer_id]
+           ,[product_id]
+           ,[feedback_rateStars]
+           ,[feedback_comment])
+
+VALUES(2, 5, 5, 'So Good'),
+		(2,5,4,'Nide'),
+		(2,5,3,'Nomarly'),
+		(2,5,1,'So Bad');

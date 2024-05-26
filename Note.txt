@@ -2,3 +2,25 @@ thẻ FlashSale có thể thể hiện bằng phần trăm sale của sản ph�
 (có thể thay đổi fashsale thành top sale thể hiện những sản phẩm có giá sale nhiều nhất do Saller điều chỉnh).
 
 Thẻ Top Product được đánh giá qua mỗi tuần dựa vào lượt bán trên sàn và được để cử thông qua admin
+
+
+Login(Tung)
+
+Phân chia Screen:
+*Customer
+-View home page: 120 loc	(H.anh)
+-Product List (Sort, Search, paging): 180(Hung NM)
+-Product detail(add to Cart, Buy, Change quantity, feedback, ):240
+-Search list(Sort, Filter, Pagging): 120 (Thinh)
+-Profile(update): 60 
+- Stores(Search, pagging sort, static Product):240
+
+*Seller:
+-Profile(update): 60(Khanh)
+-Manage Product(add Product, Delete, sort, update, pagging, search):240
+-My Shop(order detail)
+
+*Admin:
+-Dashboard(Number of cata) (Thống kê Lượng người dùng truy cập vào trang web and Top 10 Product bán chạy nhất)(inter2)
+-Manage Cata
+-Manage Slider: 
