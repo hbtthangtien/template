@@ -24,7 +24,11 @@ CREATE TABLE [Users]
 	[Image] NVARCHAR(500),
 	role_id INT FOREIGN KEY REFERENCES [Roles](role_id) ON DELETE CASCADE
 )
-
+CREATE TABLE Color
+(
+	color_id INT IDENTITY(1,1) PRIMARY KEY,
+	color_name NVARCHAR(500)
+)
 CREATE TABLE Account
 (
 	[user_id] INT NOT NULL PRIMARY KEY,
@@ -32,7 +36,8 @@ CREATE TABLE Account
 	[username] NVARCHAR(200) UNIQUE,
 	[password] NVARCHAR(500),
 	startDate DATE DEFAULT(GETDATE()),
-	auth BIT DEFAULT(0)
+	auth BIT DEFAULT(0),
+	[status] INT DEFAULT(1)
 )
 
 CREATE TABLE Categories
@@ -87,10 +92,9 @@ CREATE TABLE Products
 				FOREIGN KEY REFERENCES Stores(store_id) ON DELETE CASCADE,
 	product_name NVARCHAR(500),
 	product_originPrice MONEY,
-	product_percentSale INT,
+	product_percentSale INT DEFAULT(0),
 	product_importDate DATE DEFAULT(GETDATE()),
-	product_describes NVARCHAR(MAX),
-	quantity INT
+	product_describes NVARCHAR(MAX)
 )
 
 CREATE TABLE ImageProducts
@@ -125,7 +129,7 @@ CREATE TABLE ImageFeedbacks
 CREATE TABLE [Types] 
 (
 	[type_id] INT IDENTITY(1,1) PRIMARY KEY,
-	type_describes NVARCHAR(200),
+	type_describes NVARCHAR(200)
 )
 
 CREATE TABLE [Orders]
@@ -138,7 +142,7 @@ CREATE TABLE [Orders]
 					FOREIGN KEY REFERENCES Stores(store_id),
 	order_totalPrice MONEY,
 	order_dateOrder DATE DEFAULT(GETDATE()),
-	order_status BIT DEFAULT(0)
+	order_status INT DEFAULT(0)
 )
 
 CREATE TABLE [OrderDetails]
@@ -150,6 +154,8 @@ CREATE TABLE [OrderDetails]
 			FOREIGN KEY REFERENCES Products(product_id) ,
 	[type_id] INT CONSTRAINT fk_OrderType_type_id
 			FOREIGN KEY REFERENCES [Types]([type_id]) ON DELETE CASCADE,
+	[color_id] INT CONSTRAINT fk_OrderDetailsColor_color_id
+				FOREIGN KEY REFERENCES [Color] ([color_id]) ON DELETE CASCADE,
 	quantityProduct INT,
 	intoPrice MONEY,
 	status_orderDetails INT DEFAULT(0)
@@ -170,9 +176,13 @@ CREATE TABLE CartItem
 			FOREIGN KEY REFERENCES Products(product_id) ,
 	[type_id] INT CONSTRAINT fk_ShoppingType_type_id
 			FOREIGN KEY REFERENCES [Types]([type_id]) ON DELETE CASCADE,
+	[color_id] INT CONSTRAINT fk_ShoppingColor_color_id
+				FOREIGN KEY REFERENCES [Color] ([color_id]), 
+	unitPrice INT,
 	quantityProduct INT,
 	intoPrice MONEY
 )
+
 
 CREATE TABLE ProductType
 (
@@ -180,5 +190,16 @@ CREATE TABLE ProductType
 	product_id INT CONSTRAINT fk_ProductType_product_id
 					FOREIGN KEY REFERENCES Products(product_id) ON DELETE CASCADE,
 	[type_id] INT CONSTRAINT fk_ProductType_type_id
-					FOREIGN KEY REFERENCES [Types]([type_id]) ON DELETE CASCADE
+					FOREIGN KEY REFERENCES [Types]([type_id]) ON DELETE CASCADE,
+	[color_id] INT CONSTRAINT fk_ProductTypColor_color_id
+				FOREIGN KEY REFERENCES [Color] ([color_id]) ON DELETE CASCADE,
+	[quantity] INT
+)
+CREATE TABLE Wishlist
+(
+	wishlist_id INT IDENTITY PRIMARY KEY,
+	product_id INT CONSTRAINT fk_ProductWishlist_product_id
+					FOREIGN KEY REFERENCES Products(product_id) ON DELETE CASCADE,
+	customer_id INT CONSTRAINT fk_Wishlist_user_id
+				FOREIGN KEY REFERENCES [Users]([user_id])
 )

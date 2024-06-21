@@ -207,7 +207,7 @@ values(1,'Jacket'),
 		(16,'Sport shoes'),
 		(16,'Sports & Outdoor Fashion');
 
-Insert into [Products](category_id, filter_id, brand_id, store_id, product_name, product_originPrice, product_percentSale, product_describes, quantity)
+Insert into [Products](category_id, filter_id, brand_id, store_id, product_name, product_originPrice, product_percentSale, product_describes)
 values (3, 25, 18, 3, 'School Bag', 430000, 10,N'- Chất liệu: Vải Poly dù lạnh mềm mại chống thăm nước nhẹ nhàng
 - Màu sắc: Đen, Be Trắng, Đỏ, Xanh
 - Kích thước: 45x30x14cm đựng được laptop lên đến 16inch
@@ -217,13 +217,13 @@ values (3, 25, 18, 3, 'School Bag', 430000, 10,N'- Chất liệu: Vải Poly dù
 Balo đi học Ulzzang Hàn Quốc trơn basic nam nữ cặp sách đi chơi du lịch thời trang Unisex BL03 chất liệu vài dù Poly lạnh cao cấp khả năng chống thấm nước nhẹ, mang chắc chắn vừa vặn với khung nười Việt Nam.
 - Balo đi học ulzzang đi học Hàn Quốc nam nữ đều mang được.
 - Dùng để đi học, thời trang phong cách Hàn Quốc
-- Phụ kiện thời trang mang đi chơi, đi du lịch. Kích thước lớn đựng được nhiều đồ.', 20 ),
+- Phụ kiện thời trang mang đi chơi, đi du lịch. Kích thước lớn đựng được nhiều đồ.' ),
 		(3, 25, 7, 3, 'Balo Dior', 2300000, 7,N'Balo đi học size to 40 nam nữ giá rẻ thời trang đi chơi du lịch đựng vừa A4 BL335
 Balo Đẹp Nam Nữ , BaLô Công Sở, Laptop, Chống Sốc, Chống Thấm Nước, Đi Chơi, Du Lịch
 - Màu Sắc: Nhiều họa tiết
 - Kích thước: size 40 cm ( Đựng vừa laptop, A4...)
 - Chất liệu: Da PU
-', 10),
+'),
 		(3, 21, 18, 8, 'Balo Laptop', 230000, 5, N'Kích thước: 46 x 31 x 18 (cm) | Ngăn Laptop Chống Sốc 17 - 17.3 inch
 – Màu Sắc : Đen 
 – Chất liệu vải:  Vải Cordura 500D chính hãng cao cấp, có tác dụng chống thấm nước kép 2 lớp, chống xước,  không phai màu. 
@@ -242,7 +242,7 @@ Khóa Kéo YKK: Zip khóa YKK tạo độ mượt, trượt khi kéo, giúp ngư
 
 + Tích hợp cổng sạc USB: Balo được thiết kế tích hợp cổng sạc USB để đáp ứng nhu cầu sạc pin cho các thiết bị di động như điện thoại, máy tính bảng, tai nghe không dây, v.v.
 
-+ Quai đeo thoáng khí, kết cấu trợ lực.', 50),
++ Quai đeo thoáng khí, kết cấu trợ lực.'),
 		(3, 25, 19, 3, 'Balo Haras', 700000, null, N' Chất liệu: Da PU Cao Cấp - Trượt nước
 - Hoạ tiết: thêu logo nổi
 - Size: 40cm X 30cm X 12cm
@@ -250,27 +250,27 @@ Khóa Kéo YKK: Zip khóa YKK tạo độ mượt, trượt khi kéo, giúp ngư
 - Thương hiệu: PRAZA
 - Sản xuất: Việt Nam
 - Màu sắc và họa tiết được thiết kế riêng
-- Bảo hành: 60 ngày', 5),
+- Bảo hành: 60 ngày'),
 		(1, 1, 17, 3, 'Jacket DirtyCoins', 1500000, 10, N'• Mặt ngoài: Sợi tổng hợp phối da PU; lót trong: Polyester.
 • Màu sắc: Đỏ
 • Kích cỡ: M - L - XL
 • Regular Fit.
 • Phối đắp mảnh da trên cầu vai.
-• Hình thêu logo trên mặt trước và mặt sau lưng áo.', 20 ),
+• Hình thêu logo trên mặt trước và mặt sau lưng áo.' ),
 		(1, 1, 1, 4, 'Jacket Nike', 4620000, 20, N'- Chất liệu: Vải gió dù
 - Form: Cơ bản- Đem lại sự thoải mái tiện lợi nhất cho người mặc đi mưa,cản gió,chống nắng
 - áo khoác gió DEGO  được thiết kế theo đúng form chuẩn của nam giới Việt Nam
 Hướng dẫn sử dụng áo gió 
 - Đối với sản phẩm áo khoác gió mới mua về, nên giặt tay lần đâu tiên để tránh phai màu sang áo khoác gió khác
 - Khi giặt nên lộn mặt trái ra để đảm bảo độ bền của hình in/decal
-- Sản phẩm phù hợp cho giặt máy/giặt tay', 5 ),
+- Sản phẩm phù hợp cho giặt máy/giặt tay'),
 		(1, 1, 2, 4, 'Jacket Adidas', 3500000, 15, N'- Chất liệu: Vải gió 
 - Form: Cơ bản- Đem lại sự thoải mái tiện lợi nhất cho người mặc đi mưa,cản gió,chống 
 - áo khoác gió DEGO  được thiết kế theo đúng form chuẩn của nam giới Việt Nam
 Hướng dẫn sử dụng áo gió :
 - Đối với sản phẩm áo khoác gió mới mua về, nên giặt tay lần đâu tiên để tránh phai màu sang áo khoác gió 
 - Khi giặt nên lộn mặt trái ra để đảm bảo độ bền của hình in/decal
-- Sản phẩm phù hợp cho giặt máy/giặt tay', 5 ),
+- Sản phẩm phù hợp cho giặt máy/giặt tay'),
 		(1, 1, 20, 3, 'Jacket Paradox', 900000, 5, N'• Tự hào sản xuất tại Việt Nam bởi chính Paradox - là một Local Brand đã có mặt nhiều năm trên thị trường.
 
 • Chất liệu vải micro-parachute (dù) 2 lớp, là một dòng sản phẩm chất liệu thuộc hạng cao cấp được gia công từ các chất liệu như: polyester, cotton, nylon và tơ nhân tạo...
@@ -285,7 +285,7 @@ Hướng dẫn sử dụng áo gió :
 
 • Hoạ tiết được in chuyển nhiệt có độ tinh xảo, sắc nét cao
 
-• Có khoá kéo chắc chắn, cổ hình trụ', 30 ),
+• Có khoá kéo chắc chắn, cổ hình trụ' ),
 		(1, 3, 17, 3, 'Sweater DirtyCoins', 500000, 10, N'• Chất liệu: Cotton.
 
 • Màu sắc: Đen
@@ -296,10 +296,10 @@ Hướng dẫn sử dụng áo gió :
 
 • Họa tiết monogram đặc trưng của DirtyCoins được dệt trên vải.
 
-• Bo tay áo, bo cổ và bo thân được đánh rách nhẹ.', 70 ),
+• Bo tay áo, bo cổ và bo thân được đánh rách nhẹ.'),
 		(1, 3, 18, 3, 'Sweater Not Bad', 230000, null, N'- Chất liệu: Nỉ da cá 380gsm
 
-- Màu Sắc: Đen, Xám Nhạt, Hồng Đậm' , 100),
+- Màu Sắc: Đen, Xám Nhạt, Hồng Đậm'),
 		(1, 3, 1, 4, 'Sweater Nike', 1200000, 30, N'- Sản phẩm: Áo Sweater Richky Premium Nỉ Nike Big Logo Mid
 
 - Thương hiệu: RICHKY
@@ -312,12 +312,12 @@ Hướng dẫn sử dụng áo gió :
 
 - Phong cách thời trang trẻ trung năng động, kiểu dáng đơn giản nhưng dễ dàng thu hút ánh nhìn của người đối diện 
 
-', 20),
+'),
 		(1, 3, 2, 4, 'Sweater Adidas', 980000, 20, N'áo hoodie chuẩn, tem mác chuẩn chính hãng.
 - Chất liệu áo hoodie: Nỉ cao cấp. vải mềm, vải mịn, không xù lông.
 - áo khoác hoodie có đường may chuẩn chỉnh, tỉ mỉ, chắc chắn.
 - Mặc ở nhà, mặc đi chơi hoặc khi vận động thể thao. Phù hợp khi mix đồ với nhiều loại.
-- áo khoác hoodie thiết kế hiện đại, trẻ trung, năng động. Dễ phối đồ', 9 ),
+- áo khoác hoodie thiết kế hiện đại, trẻ trung, năng động. Dễ phối đồ'),
 		(1, 5, 17, 3, 'Shirt DirtyCoins', 300000, 20, N'• Chất liệu: Polyester.
 
 • Màu sắc: Đen - Đỏ - Trắng
@@ -328,16 +328,16 @@ Hướng dẫn sử dụng áo gió :
 
 • Hình in mặt trước và mặt sau áo áp dụng công nghệ in kéo lụa.
 
-• Nhãn dệt riêng ở góc dưới thân áo.', 200 ),
+• Nhãn dệt riêng ở góc dưới thân áo.' ),
 		(1, 5, 21, 3, 'Shirt Bad Habits', 410000, 15, N'• Chất liệu: Kaki
 
-• Kỹ thuật: Thêu và In', 100 ),
+• Kỹ thuật: Thêu và In' ),
 		(1, 5, 1, 4, 'Shirt Nike', 1050000, 20, N' Định lượng cotton lên tới 320gsm tạo form dáng ổn định sau nhiều lần sử dụng
 
 - Công nghệ Enzyme wash cả cây vải tạo độ mềm, chống co giãn hay biến dạng, làm sợi vải xốp hơn, thân thiện và mềm mại trên da
 
-- Oversized fit', 50),
-		(1, 5, 2, 4, 'Shirt Adidas', 860000, 15, N'Cảm hứng thiết kế : Mẫu T-shirt với slogan mang một thông điệp mạnh mẽ : “Sick of being kind”, được in to ở mặt đằng trước áo, tạo nên một vibe cực kỳ cool ngầu khi diện chiếc áo này. 2 phối màu đen và be kết hợp với màu chữ in trên áo một cách tinh tế, khiến cho mẫu áo này nổi bật và rất dễ phối cùng với các items khác.', 20),
+- Oversized fit'),
+		(1, 5, 2, 4, 'Shirt Adidas', 860000, 15, N'Cảm hứng thiết kế : Mẫu T-shirt với slogan mang một thông điệp mạnh mẽ : “Sick of being kind”, được in to ở mặt đằng trước áo, tạo nên một vibe cực kỳ cool ngầu khi diện chiếc áo này. 2 phối màu đen và be kết hợp với màu chữ in trên áo một cách tinh tế, khiến cho mẫu áo này nổi bật và rất dễ phối cùng với các items khác.'),
 		(6, 47, 22, 5, 'Men Care Feelex', 205000,5, N'- Tên sản phẩm: Bọt vệ sinh nam giới Feelex Care Men dung dịch vệ sinh tạo bọt 100ml
 
 - Xuất xứ: Việt Nam
@@ -355,10 +355,7 @@ Hướng dẫn sử dụng áo gió :
 
 
 Vệ sinh cá nhân là một phần quan trọng đối với sức khỏe nam giới. Sự tích tụ của mồ hôi, bụi bẩn và vi khuẩn (vi trùng) ở vùng kín có thể gây ra viêm nhiễm do vi khuẩn hoặc nấm và dị ứng dẫn đến mùi hôi. Bọt vệ sinh nam giới Feelex Care Men loại bỏ nhanh chóng các yếu tố này, giữ độ ẩm cho vùng kín.
-
-
-
-Bọt vệ sinh nam giới là sản phẩm rửa sạch nhẹ nhàng và hiệu quả vùng kín nam giới, giúp loại bỏ mùi hôi và tăng cường độ ẩm cho vùng kín. Với dạng bọt tuyết tiện dụng không chỉ giúp cánh mày râu vệ sinh cậu nhỏ dễ dàng mà còn mang đến cảm giác mát nhẹ, hương thơm dễ chịu.', 200 ),
+Bọt vệ sinh nam giới là sản phẩm rửa sạch nhẹ nhàng và hiệu quả vùng kín nam giới, giúp loại bỏ mùi hôi và tăng cường độ ẩm cho vùng kín. Với dạng bọt tuyết tiện dụng không chỉ giúp cánh mày râu vệ sinh cậu nhỏ dễ dàng mà còn mang đến cảm giác mát nhẹ, hương thơm dễ chịu.'),
 		(6, 42, 23, 5, 'Cleanser Oxy ', 99000, null, N'
 Da mụn trứng cá, Mọi loại da, Da hỗn hợp, Khô
 Chăm Sóc Da
@@ -370,7 +367,7 @@ Thể tích
 Xuất xứ
 Việt Nam
 Trọng lượng
-120g', 200 ),
+120g'),
 		(6, 43, 23, 5, 'shower gel Oxy',170000, 10, N'Sữa tắm, rửa mặt không xà phòng cho mọi loại da và da nhạy cảm 740ML
 
 
@@ -409,7 +406,7 @@ Công dụng: Sữa tắm, rửa mặt không xà phòng làm sạch và cấp �
 
 - Sản xuất tại Pháp
 
-' , 50),
+' ),
 		(6, 42, 18, 5, 'Moisturizer', 59000, null, N'Gel dưỡng ẩm kết hợp Ceramide, Hyaluronic Acid, Centella Asiatica giúp cải thiện các vấn đề về hàng rào bảo vệ da bị tổn thương như mụn, m.ẩn đỏ, da sần, da khô một cách nhanh chóng nhưng vẫn an toàn cho hàng rào bảo vệ da. Với công nghệ 5X Ceramide, là sự kết hợp của 5 loại Ceramide giúp dưỡng ẩm sâu và giữ các lớp da khoẻ mạnh. 5X Ceramide này giúp cải thiện hàng rào bảo vệ da bằng cách giữ ẩm và tránh các nhân tố gây hại bên ngoài.
 
 Khối lượng: 30g
@@ -428,23 +425,23 @@ Công dụng:
 
 - Làm da dịu đi và mềm mịn
 
-Hiệu quả sản phẩm phụ thuộc vào tình trạng da và cơ địa của mỗi người',50),
+Hiệu quả sản phẩm phụ thuộc vào tình trạng da và cơ địa của mỗi người'),
 		(6, 44, 18, 5, 'Hair care essential oil', 109000, null, N'Hỗ trợ cải thiện mái tóc hư tổn
 - Giúp tóc bớt rụng nhiều
 - Hỗ trợ phục hồi và nuôi dưỡng mái tóc chắc khỏe 
 - Hạn chế tóc hư tổn trước những tác nhân gây hại
-* Dung tích 100ml',30),
+* Dung tích 100ml'),
 		(6, 47, 18, 5, 'Shaving cream', 45000, null, N'Bộ sản phẩm gồm 02 Lưỡi cạo gồm 5 lưỡi nhỏ + 1
 Lưỡi cạo với 5 lưỡi nhỏ sắc bén được sản xuất bằng thép không gỉ của Thuỵ Điển
 Đầu dao cạo có thanh cấp ẩm và con lăn giúp thao tác cạo râu dễ dàng hơn
 Dễ dàng tháo lắp, thay thế lưỡi cạo với phần chốt ở giữa phần chuôi cầm và lưỡi cạo
 Sản xuất tại nhà máy Mers Razor Solution
-', 70),
+'),
 		(6, 44, 18, 5,'Hair wax', 130000, null, N'Sáp, Wax vuốt tóc Sawensito Deluxe Hair Wax 100gr tạo kiểu giữ nếp cho tóc. HÀNG CHÍNH HÃNG
 -Mùi thơm nam tính dễ chịu.
 -Chất sáp cứng phù hợp tóc cứng khó tạo nếp
 -Độ cứng: 5/5 - giữ nếp cả ngày
--Không gây bết dính, dễ dàng gội đầu sau khi sử dụng.', 100),
+-Không gây bết dính, dễ dàng gội đầu sau khi sử dụng.'),
 		(6, 42, 24, 5, 'The cocoon', 145000, 10, N'Không ngừng cải tiến để tạo ra những sản phẩm có hiệu quả vượt trội hơn, Cocoon chính thức ra mắt PHIÊN BẢN NÂNG CẤP của NƯỚC DƯỠNG TÓC TINH DẦU BƯỞI POMELO.
 Nước dưỡng tóc tinh dầu bưởi pomelo thuần chay phiên bản nâng cấp là sản phẩm treatment dành cho tóc rụng, tóc yếu, tóc thưa mỏng và chậm phát triển. Bên cạnh các thành phần chủ đạo của phiên bản hiện tại, phiên bản nâng cấp được bổ sung thêm 2 hoạt chất là Baicapil và Bisabolol, mang đến giải pháp mạnh mẽ giải quyết tình trạng rụng tóc và tăng cường sự phát triển của mái tóc.
 Thành phần chính nước dưỡng tóc pomelo cocoon:
@@ -452,12 +449,12 @@ Thành phần chính nước dưỡng tóc pomelo cocoon:
 • Vitamin B5 (Panthenol): cung cấp độ ẩm cho tóc, ngăn ngừa hư tổn, làm dày tóc và cải thiện độ bóng khỏe của mái tóc.
 • Xylishine: Được chiết xuất từ các loại đường tự nhiên từ gỗ và từ tảo nâu Pelvetia Canaliculata giúp cấp ẩm, phục hồi và tăng cường độ bóng của tóc.
 • Baicapil: Là tổ hợp các chất được chiết xuất từ cây hoàng cầm, mầm đậu nành và mầm lúa mạch. Hoạt chất này có tác dụng mạnh mẽ trong việc giúp mọc tóc nhanh, giảm rụng tóc rõ rệt, gia tăng mật độ của tóc và làm cho sợi tóc dày.
-• Bisabolol: Chiết xuất từ tinh dầu hoa cúc, có tác dụng bảo vệ và làm lành da đầu khỏi tác động của căng thẳng hàng ngày, phù hợp với da đầu. Ngoài ra Bisabolol còn có tác dụng giữ ẩm và kiểm soát bã nhờn trên da đầu.', 30),
+• Bisabolol: Chiết xuất từ tinh dầu hoa cúc, có tác dụng bảo vệ và làm lành da đầu khỏi tác động của căng thẳng hàng ngày, phù hợp với da đầu. Ngoài ra Bisabolol còn có tác dụng giữ ẩm và kiểm soát bã nhờn trên da đầu.'),
 		(6, 43, 24, 5, 'Clean Texture', 236500, 20, N'1. Applicable Model: Fuel tank cover oil gas cap trim fit for MK7 MK7.5 2014‑2019, high quality car decorative accessory.
 2. Premium Material: Oil gas cap trim is made of high quality carbon fiber material, light weight, clear and beautiful texture, smooth touch.
 3. Long Durability: Carbon fiber fuel tank cover is very durable, weatherproof, resistant to high and low temperatures, and will not fade.
 4. Stylish Car Trim: Perfect for the oil tank cover, it changes the look of the car and adds a sporty and stylish look to the car.
-5. Easy Installation: Self adhesive design, just peel and stick, no need to modify. Easy to remove and clean without any residue.', 20),
+5. Easy Installation: Self adhesive design, just peel and stick, no need to modify. Easy to remove and clean without any residue.'),
 		(6, 45, 24, 5, 'Eye Water Proof', 49000, null,N' Không thấm nước và chống mồ hôi, hiệu ứng lâu trôi, không dễ phai màu, đều màu, lâu trôi và không bị nhòe.
 
 * Màu sắc tự nhiên, nét cọ mịn và tinh tế, dễ kẻ, không gây tổn thương da.
@@ -473,10 +470,8 @@ Thích hợp cho màu da: Da tự nhiên, khỏe mạnh
 Thích hợp cho màu tóc: Tóc đen tự nhiên, tóc sẫm màu 
 * Với bút kẻ lông mày hai đầu này, bạn sẽ tạm biệt những sợi lông mày đã lỗi thời, theo xu hướng thời trang theo hai hiệu ứng khác nhau. 
 * Bút kẻ lông mày ngòi dẹt để trang điểm tốt hơn. Màu sắc tự nhiên, sản phẩm thích hợp cho người mới bắt đầu, dễ kiểm soát độ dày nét kẻ, không cần mài bút, chỉ cần xoay nhẹ là sử dụng. 
-* Đầu cọ xoay bằng lông mềm và bền, không dễ bị biến dạng. Nếu chải lông mày nhẹ nhàng trước khi kẻ, lông mày sẽ trở nên đẹp sau khi trang điểm. ', 40 ),
+* Đầu cọ xoay bằng lông mềm và bền, không dễ bị biến dạng. Nếu chải lông mày nhẹ nhàng trước khi kẻ, lông mày sẽ trở nên đẹp sau khi trang điểm. ' ),
 		(6,45, 24, 5, 'Fixer Spray',99000 ,null, N'- Loại sản phẩm: xịt khoá nền sau khi trang điểm
-
-
 
 - Xuất xứ: Nội địa Trung
 
@@ -502,7 +497,7 @@ Thích hợp sử dụng cho mọi loại da
 
 + Có thể dùng xịt trước khi make up giúp da đủ ẩm ăn nền hơn, hoặc sau khi đánh nền giúp lớp make up dễ dàng lên màu hơn, hoặc dùng bước cuối cùng sau khi hoàn tất make up giúp cố định lớp make up và hiệu quả da sáng bóng hơn.
 
-',20 ),
+' ),
 		(6,43,25,5, 'Care Body', 110000, 10,N'Sữa Tắm Yogurt White Shower Cream
 
 ✔ Loại bỏ tế bào da chết và tái tạo làn da mới
@@ -521,15 +516,15 @@ Thích hợp sử dụng cho mọi loại da
 
 🔷 THÀNH PHẦN: 10x vitamin C, Double Milk Extract (sữa dê, sữa cừu và sữa chua kefir)
 
-',30 ),
+'),
 		(6, 45, 24, 5,'Toner', 49000, 5, N'"ƯU ĐIỂM NỔI TRỘI
  - Nước cân bằng Simple Soothing Toner chứa Vitamin B5, chiết xuất Hoa cúc La Mã Chamomile và Allantoin giúp làm dịu da và cấp ẩm tức thì, mang đến một làn da mềm mại, mịn màng mà không để lại cảm giác nhờn dính.
  - Bổ sung chiết xuất Cây phỉ Witch Hazel giúp chống lão hóa, cho da tươi tắn, đàn hồi.
- - Không chứa 2000 hóa chất gây hại cho da, hương liệu, cồn, dầu khoáng, không gây kích ứng da', 50),
+ - Không chứa 2000 hóa chất gây hại cho da, hương liệu, cồn, dầu khoáng, không gây kích ứng da'),
 		(6, 42, 24, 5, 'Hyaluronic Acid', 150000,10,N'"ƯU ĐIỂM NỔI TRỘI
  - Nước cân bằng Simple Soothing Toner chứa Vitamin B5, chiết xuất Hoa cúc La Mã Chamomile và Allantoin giúp làm dịu da và cấp ẩm tức thì, mang đến một làn da mềm mại, mịn màng mà không để lại cảm giác nhờn dính.
  - Bổ sung chiết xuất Cây phỉ Witch Hazel giúp chống lão hóa, cho da tươi tắn, đàn hồi.
- - Không chứa 2000 hóa chất gây hại cho da, hương liệu, cồn, dầu khoáng, không gây kích ứng da',20 ),
+ - Không chứa 2000 hóa chất gây hại cho da, hương liệu, cồn, dầu khoáng, không gây kích ứng da'),
 		(15, 109, 9, 6, 'Air Pod Pro 4', 7100000, 30, N'
 
 • Chip mới nhất
@@ -556,7 +551,7 @@ Thích hợp sử dụng cho mọi loại da
 
 
 
-• Cảm biến tiệm cận - Cảm biến nhiệt. Khắc phục delay cho tai nghe. ', 40 ),
+• Cảm biến tiệm cận - Cảm biến nhiệt. Khắc phục delay cho tai nghe. '),
 		(15, 109, 9, 6, 'Air Pod Pro 6', 9400000, 20, N'THÔNG SỐ KỸ THUẬT:
 
     - Tính năng nghe gọi và mic đàm thoại  ổn định
@@ -583,7 +578,7 @@ Thích hợp sử dụng cho mọi loại da
 
      - Các chi tiết của tai được làm khá sắc nét, khớp nối mịn và không bị hở
 
-     - Chất liệu nhựa của tai được làm nhựa tốt nên màu trắng của tai rất đẹp, tai cầm chắc chắn', 20),
+     - Chất liệu nhựa của tai được làm nhựa tốt nên màu trắng của tai rất đẹp, tai cầm chắc chắn'),
 		(15, 109, 18, 6, 'IPX4', 420000, 20, N'Thương hiệu
 
 Model “ Tai nghe nhét tai không dây Baseus Bowie E16 Ture
@@ -600,8 +595,8 @@ Tổng thời lượng pin với hộp sạc - 30 giờ
 
 Thời gian sạc - khoảng 1,5 giờ
 
-', 25),
-		(15, 109,15,6,'Headphone Lenovo',1050000, 25, N'Headphone tai nghe bluetooth không dây chụp tai Rockspace O2 có mic nghe nhạc liên tục 15h hàng chính hãng BH 1 năm chống ồn cực tốt, đệm tai êm không đau tai, là tai nghe chụp tai không dây quốc dân, có thể nghe nhạc liên tục 15 tiếng.', 10 ),
+'),
+		(15, 109,15,6,'Headphone Lenovo',1050000, 25, N'Headphone tai nghe bluetooth không dây chụp tai Rockspace O2 có mic nghe nhạc liên tục 15h hàng chính hãng BH 1 năm chống ồn cực tốt, đệm tai êm không đau tai, là tai nghe chụp tai không dây quốc dân, có thể nghe nhạc liên tục 15 tiếng.'),
 		(15, 109,18,6,'i7S TWS', 222000, 30, N'Thời gian giao hàng dự kiến cho sản phẩm này là từ 7-9 ngày
 
 
@@ -630,7 +625,7 @@ Lưu ý:
 
 1. Do khác biệt giữa các màn hình khác nhau, hình ảnh có thể không phản ánh màu sắc sản phẩm thực tế. Chúng tôi đảm bảo phong cách giống như trong hình ảnh.
 
-2. Vui lòng cho phép khác biệt kích thước nhỏ do biện pháp thủ công khác nhau', 39 ),
+2. Vui lòng cho phép khác biệt kích thước nhỏ do biện pháp thủ công khác nhau'),
 (15, 109,18,6,'Y08 Headphone', 122000, 30, N' Thông tin chi tiết sản phẩm tai nghe chụp tai Y08
 
 
@@ -677,7 +672,7 @@ Lưu ý:
 
 ✔️ Thời gian chờ: 200h
 
-✔️ Thời gian nghe nhạc: 8-10h', 39 ),
+✔️ Thời gian nghe nhạc: 8-10h'),
 		(15, 109,18,6,'Vupa Headphone', 390000, 26, N'- Thiết kế đậm chất game, hoàn hảo từng chi tiết với kiểu dáng khỏe khoắn, cứng cáp. 
 
 - Tai nghe  là dòng sản phẩm tai nghe với giá bình dân nhưng chất câm vượt trội so với giá tiền, chuyên dùng cho game, kết nối thông dụng với Máy tính, Laptop
@@ -688,7 +683,7 @@ Lưu ý:
 
 - Ngoài ra, sở hữu hệ thống LED RGB cực kỳ đẹp mắt
 
-- Bên cạnh đó, Tai nghe  sở hữu chiếc micro dài, có thể uốn cong đa hướng, khả năng thu âm và lọc ồn ở mức tốt. Giúp các bạn có thể học online, hay đàm thoại trong game, hội họp một cách dễ dàng và thoải mái.', 59 ),
+- Bên cạnh đó, Tai nghe  sở hữu chiếc micro dài, có thể uốn cong đa hướng, khả năng thu âm và lọc ồn ở mức tốt. Giúp các bạn có thể học online, hay đàm thoại trong game, hội họp một cách dễ dàng và thoải mái.'),
 		(15, 97,9,6,'Iphone 15 Pro Max', 33450000, 25, N'Thông số kỹ thuật:
 
 - 6.1″
@@ -725,7 +720,7 @@ Camera sau
 
 - Ảnh chân dung thế hệ mới với Focus và Depth Control
 
-- Phạm vi thu phóng quang học lên đến 6x', 15 ),
+- Phạm vi thu phóng quang học lên đến 6x'),
 		(15, 110,26,6,'Oppo Reno11F', 11500000, 25, N'Hạn bảo hành
 12 tháng
 Dung lượng pin
@@ -735,7 +730,7 @@ Dimensity 7050 5G
 Độ phân giải camera chính
 64MP
 Kích thước màn hình
-6.7inches', 20 ),
+6.7inches'),
 		(15, 110,26,6,'Oppo Reno8',6250000, 10, N'Bên trong hộp: 
 
 -OPPO RENO8 Pro
@@ -752,7 +747,7 @@ Kích thước màn hình
 
 - Miếng dán màn hình (Đã dán sẵn)
 
-- Vỏ bảo vệ', 21 ),
+- Vỏ bảo vệ'),
 		(15, 110, 10, 6, 'Samsung Galaxy Z Fold 5',21000000, 20,N'Màn hình:
 
 Dynamic AMOLED 2XChính 7.6" & Phụ 6.2"Quad HD+ (2K+)
@@ -779,7 +774,7 @@ SIM:
 2 Nano SIM hoặc 1 Nano SIM + 1 eSIMHỗ trợ 5G
 Pin, Sạc:
 
-4400 mAh25 W', 20 ),
+4400 mAh25 W'),
 		(15, 110, 10, 6, 'Samsung Galaxy M14 5',9999999, 10,N'Thông số THIẾT KẾ
 Trọng lượng	
 206g
@@ -793,11 +788,11 @@ Mặt trước kính, Mặt lưng nhựa, Viền nhựa
 Màu sắc	
 Bạc, Xanh dương, Xanh lợt
 
-', 5 ),
+'),
 		(15, 110, 18, 6, 'ZTE Blade V40',250000, 20,N'Bắt trọn mọi khoảnh khắc của bạn với bộ 3 camera 48MP.
 Năng lượng cho cả ngày dài nhờ vào viên pin lên đến 5000mAh đi kèm sạc nhanh 22.5W.
 Hiệu năng vượt trội và được tăng cường với chip xử lý Unisoc T618 mạnh mẽ.
-Màn hình rộng 6.67 inch với độ phân giải Full HD - Trải nghiệm giải trí cực sống động.', 4 ),
+Màn hình rộng 6.67 inch với độ phân giải Full HD - Trải nghiệm giải trí cực sống động.'),
 		(4, 28, 18, 8, 'PXN Console Game',300000, 25, N'“Bộ điều khiển PC IINE Star-Field ”
 
 ★ Chuyển đổi / Pad / PC / Điện thoại / Android TV & TV Box / SteamDeck / Tesla
@@ -826,7 +821,7 @@ Màn hình rộng 6.67 inch với độ phân giải Full HD - Trải nghiệm g
 
 ★ Chức năng tự động bắn
 
-★ Hỗ trợ công tắc đánh thức', 5 ),
+★ Hỗ trợ công tắc đánh thức'),
 		(4, 28, 18, 8, 'T411 Console Game',30000, 15, N'Tay cầm chơi game HOSAN T4W  Kết nối có dây - Phụ kiện gaming cho PC thế hệ mới
 
 
@@ -845,7 +840,7 @@ Màn hình rộng 6.67 inch với độ phân giải Full HD - Trải nghiệm g
 
 - Động cơ không đối xứng, rung kép mang đến trải nghiệm chân thực : Khi chơi game bạn sẽ cảm nhận được nhiều cường độ rung khác nhau nhờ vào motor rung được trang bị ở hai bên tay cầm chơi game laptop Gamesir T4W. Không còn là 1 kiểu rung mặc định nhàm chán chỉ với một mức độ giờ đây bạn có thể tùy ý cài đặt 5 mức tốc độ tăng cường rung trong trò chơi. Mang đến cho bạn những khoảng thời  gian thật sự nhập vai vào nhân vật và tình huống đang xảy ra trong game, nâng trải nghiệm chơi game lên một tầm cao mới.
 
-- D-pad và Joystick phản hồi tức thời Joystick của Gamesir T4W thật sự có thể xoay chuyển 360 độ cực mượt mà một điểm mà đến ngay cả tay cầm 360 Xbox cũng chưa làm được, D-pad phản hồi thao tác ngay lập tức và không có độ trễ,  chiến game bá đạo , khống chế cuộc chơi chưa bao giờ dễ dàng đến thế.', 9 ),
+- D-pad và Joystick phản hồi tức thời Joystick của Gamesir T4W thật sự có thể xoay chuyển 360 độ cực mượt mà một điểm mà đến ngay cả tay cầm 360 Xbox cũng chưa làm được, D-pad phản hồi thao tác ngay lập tức và không có độ trễ,  chiến game bá đạo , khống chế cuộc chơi chưa bao giờ dễ dàng đến thế.'),
 		(4, 28, 18, 8, 'V7Men Console Game',250000, 30, N'
 
 Tay cầm không dây E-Dra EGP7602 với thiết kế hiện đại, tinh tế theo form chuẩn Châu Âu mang đến khả năng cầm nắm dễ chịu, trọng lượng nhẹ, nút bấm êm. Giúp cho sản phẩm đạt được độ hoàn hảo nhất định khiến cho người khó tính nhất cũng phải “gật đầu”.
@@ -872,7 +867,7 @@ Tích hợp motor rung ấn tượng đi kèm khả năng gán Macro cho phím.
 
 Ngoài ra bạn hoàn toàn có thể dùng dây microUSB để kết nối trực tiếp.
 
-Sản phẩm bảo hành 24 tháng', 19 ),
+Sản phẩm bảo hành 24 tháng'),
 		(4, 28, 18, 8, 'A102 Console Game',200000, 20, N'[1] Hỗ trợ các trò chơi nhiều người chơi. Được trang bị hai bộ điều khiển không dây, bạn có thể chơi trò chơi với bạn bè và gia đình bất cứ lúc nào.
 [2] Chip Upgarde S905X. Amlogic S905X lõi tứ 64-bit hiệu suất cao, Với độ phân giải mạnh hơn và hoạt động mượt mà hơn.
 [3] Hỗ trợ các trình giả lập khác nhau như DOS, CP1, CP2, CP2, CP3, Neogeo, GBX, MME, FC, FCE, SFC, GB, GBA, GBC, MD, PS1, PSP, DC, PS và 40 trình mô phỏng khác.
@@ -881,7 +876,7 @@ Sự chỉ rõ:
 Mô hình: GD10
 Trọng lượng: 0,36kg
 Kích thước: 16 * 12 * 10,5cm
-Chất liệu: nhựa', 9 ),
+Chất liệu: nhựa'),
 		(4, 26, 18, 8, 'Loudspeaker',80000, 10, N'
 
 JBL hãng loa nổi tiếng với những dòng Bluetooth nhỏ gọn cùng thiết kế bắt mắt. Tiếp nối những phiên bản Flip trước đó. Hãng đã cho ra mắt loa Flip 8 với mẫu mã năng động trẻ trung và cải tiến hơn nhằm mang đến những trải nghiệm âm thanh tươi mới cho người dùng.
@@ -900,7 +895,7 @@ JBL hãng loa nổi tiếng với những dòng Bluetooth nhỏ gọn cùng thi�
 
 - Sử dụng JBL Connect +
 
-', 40 ),
+'),
 		(4, 26, 18, 8, 'Bacas Loudspeaker',250000, 10, N'
 
 Thông Tin Sản Phẩm:
@@ -939,8 +934,8 @@ Sản Phẩm đóng gói gồm:
 
 - 2 Micro đi kèm
 
-- Cáp sạc loại type C', 10 ),
-		(4, 26, 18, 8, 'Peterhot Loudspeaker',370000, 42, N'Loa Soundbar Bluetooth Peterhot A30 DIBESMART, Loa Vi Tính, Tivi SPEAKER 350BS BASS Âm Thanh 360 Độ Nghe Nhạc, Xem Phim', 20 ),
+- Cáp sạc loại type C'),
+		(4, 26, 18, 8, 'Peterhot Loudspeaker',370000, 42, N'Loa Soundbar Bluetooth Peterhot A30 DIBESMART, Loa Vi Tính, Tivi SPEAKER 350BS BASS Âm Thanh 360 Độ Nghe Nhạc, Xem Phim'),
 		(4, 26, 18, 8, 'Kardon Loudspeaker',560000, 61, N'Giới chơi âm thanh chắc hẳn không còn lạ lẫm gì với cái tên Go + Play, đây là một trong những mã sản phẩm tạo nên những đột biến trong dòng loa Bluetooth di động mà Harmar Kardon đã làm làm rất tốt, và ngày một cải tiến, và tới nay là mẫu Go Play Mini, nhưng độ hot của sản phẩm này vẫn không hề giảm nhiệt.
 
 - Với khoảng 6 triệu đồng trong tay nếu bạn đang gặp khó khăn trong việc lựa chọn cho mình một chiếc loa kết nối không dây kích thước vừa phải, có quai xách, giá thành phải chăng nhưng lại có pin sạc, mà có thể mang lại một chất âm tốt với công suất cực khủng - Harman Kardon Go + Play Mini thực sự là một lựa chọn sáng suốt.
@@ -961,7 +956,7 @@ Thiết kế:
 - Với mặt trên được bố trí các phím bấm thân thiện, giúp cho việc điều chỉnh dễ dàng hơn.
 - Trọng lượng của Go + Play Mini khá nhẹ chỉ 4.3kg dễ dàng mang đi khi di chuyển.- Phía chân loa có đệm cao su chống trượt, và bám chắc trên mặt sàn.
 - Tiếng tách biệt rõ ràng, âm trung ấm và dày, âm Bass chắc, có chiều sâu, dù bật ở mức âm lượng tối đa loa cũng sẽ không bị rè hay vỡ tiếng.
-- Với Go + Play Mini - loa không dây sử dụng công nghệ Bluetooth 4.1 giúp khách hàng có thể thưởng thức âm nhạ', 6 ),
+- Với Go + Play Mini - loa không dây sử dụng công nghệ Bluetooth 4.1 giúp khách hàng có thể thưởng thức âm nhạ'),
 		(4, 26, 18, 8, 'JVJ Loudspeaker',230000, 19, N'-	Loa kèm mic hát karaoke JVJ YS-103 kết nối Bluetooth được hầu hết với các thiết bị: điện thoại, máy tính bảng, smartphone, Smart TV, laptop, máy tính..
 
 -	Loa kèm mic hát karaoke JVJ YS-103 hỗ trợ cáp kết nối trực tiếp với các thiết bị khi không muốn kết nối qua bluetooth 
@@ -996,7 +991,7 @@ Sản phẩm đa chức năng
 
 -  Thời gian sạc đầy loa khoảng 3 giờ và 1 giờ cho mic
 
--	Công suất hoạt động 10W cho âm thanh trung thực, sống động kết hợp với khoảng cách sử dụng tối đa đến 5 mét (trong điều kiện lý tưởng) YS-103 rất phù hợp với nhu cầu sử dụng cho không gian gia đình hay trong những buội tiệc vui chơi, dã ngoại, giảng dạy...', 14 ),
+-	Công suất hoạt động 10W cho âm thanh trung thực, sống động kết hợp với khoảng cách sử dụng tối đa đến 5 mét (trong điều kiện lý tưởng) YS-103 rất phù hợp với nhu cầu sử dụng cho không gian gia đình hay trong những buội tiệc vui chơi, dã ngoại, giảng dạy...'),
 		(4, 26, 18, 8, 'Hoco HC22 Loudspeaker',370000, 22, N'Xuất xứ: Hong Kong, nhập khẩu Chính hãng
 
 Sản xuất tại: Trung Quốc
@@ -1011,7 +1006,7 @@ Sản xuất tại: Trung Quốc
 
 👍5 . Đơn vị còi × Công suất × 5W
 
-👍6, Hỗ trợ Bluetooth, FM, thẻ TF , đĩa U, AUX, TWS và các chế độ khác', 30 ),
+👍6, Hỗ trợ Bluetooth, FM, thẻ TF , đĩa U, AUX, TWS và các chế độ khác'),
 		(5, 38, 18, 8, 'Printer',4100000, 15, N'Độ phân giải: 203 DPI
 Phương pháp in: in nhạy cảm với nhiệt
 Tốc độ in: 152 mm (6 ") / s
@@ -1039,10 +1034,10 @@ Phông chữ bên trong: ■ Tám phông chữ bitmap ■ Có thể được t�
 Phần mềm
 Nhập và xoay mã vạch: 0,90,180,270 °
 Bộ hướng dẫn: TSPL, EPL, ZPL, DPL
-APP:4barcode                                                          ', 5 ),
+APP:4barcode'),
 		(5, 38, 18, 8, 'Therma Printer',600000, 15, N'Chức năng	In, sao chép, chụp quét, fax, in mạng, wifi
 
-Khổ giấy	Hỗ trợ kích thước giấy ảnh media A4; A5; A5(LEF); B5 (JIS); Oficio; Phong bì (DL,C5)
+Khổ giấy Hỗ trợ kích thước giấy ảnh media A4; A5; A5(LEF); B5 (JIS); Oficio; Phong bì (DL,C5)
 
 Loại giấy ảnh media Giấy trơn, giấy dày, giấy mỏng, giấy bông, giấy in màu, giấy in sẵn, giấy tái chế, giấy in nhãn, giấy in bìa, giấy in trái phiếu, giấy bạc halide, giấy in phong bì
 
@@ -1072,7 +1067,7 @@ Ngăn giấy ra 100 tờ
 
 Khối lượng trang hàng tháng được khuyến nghị: 100 đến 2.000
 
-Hệ điều hành tương thích Windows®: 7 (32/64 bit), 2008 Server R2, 8 (32/64 bit), 8.1 (32/64 bit), 10 (32/64 bit), 2012 Server, 2016 Server, macOS v10.14 Mojave, macOS v10.13 High Sierra, macOS v10.12 Sierra, OS X v10.11 El Capitan', 7),
+Hệ điều hành tương thích Windows®: 7 (32/64 bit), 2008 Server R2, 8 (32/64 bit), 8.1 (32/64 bit), 10 (32/64 bit), 2012 Server, 2016 Server, macOS v10.14 Mojave, macOS v10.13 High Sierra, macOS v10.12 Sierra, OS X v10.11 El Capitan'),
 		(5, 38, 27, 8, 'Hp Printer',2500000, 20, N'• Model: Máy in date cầm tay mini GEMAT HD3
 
 • Loại máy: Máy in phun đơn sắc cầm tay
@@ -1103,7 +1098,7 @@ MÔ TẢ SẢN PHẨM:
 
 • Máy in cầm date tay Hiền Cường sử dụng hộp mực khô nhanh, dễ dàng sử dụng, thao tác chỉnh sửa bản tin theo sản phẩm lô hàng nhanh chóng, máy in hoạt động êm ái, không ồn, không độc hại, không tiêu tốn điện năng.
 
-• Với thiết kế nhỏ gọn, tiện lợi thiết kế tay cầm vừa vặn, thoải mái. Khả năng in date, in logo dễ dàng trên hầu hết các bề mặt sản phẩm. Máy in date cầm tay đã giúp rất nhiều cơ sở giải được bài toán in date sản phẩm của mình.', 6 ),
+• Với thiết kế nhỏ gọn, tiện lợi thiết kế tay cầm vừa vặn, thoải mái. Khả năng in date, in logo dễ dàng trên hầu hết các bề mặt sản phẩm. Máy in date cầm tay đã giúp rất nhiều cơ sở giải được bài toán in date sản phẩm của mình.'),
 		(5, 38, 27, 8, 'Hp Printer',2900000, 15, N'• Model: Máy in date cầm tay mini GEMAT HD3
 
 • Loại máy: Máy in phun đơn sắc cầm tay
@@ -1134,7 +1129,7 @@ MÔ TẢ SẢN PHẨM:
 
 • Máy in cầm date tay Hiền Cường sử dụng hộp mực khô nhanh, dễ dàng sử dụng, thao tác chỉnh sửa bản tin theo sản phẩm lô hàng nhanh chóng, máy in hoạt động êm ái, không ồn, không độc hại, không tiêu tốn điện năng.
 
-• Với thiết kế nhỏ gọn, tiện lợi thiết kế tay cầm vừa vặn, thoải mái. Khả năng in date, in logo dễ dàng trên hầu hết các bề mặt sản phẩm. Máy in date cầm tay đã giúp rất nhiều cơ sở giải được bài toán in date sản phẩm của mình.', 6 ),
+• Với thiết kế nhỏ gọn, tiện lợi thiết kế tay cầm vừa vặn, thoải mái. Khả năng in date, in logo dễ dàng trên hầu hết các bề mặt sản phẩm. Máy in date cầm tay đã giúp rất nhiều cơ sở giải được bài toán in date sản phẩm của mình.'),
 		(5, 38, 18, 8, 'Brother Printer',11000000, 9, N'1. Máy in nhãn Brother P-Touch Cube PT-P710BT
 
 Máy in nhãn di động P-touch Cube thế hệ mới 
@@ -1193,7 +1188,7 @@ Thông số kỹ thuật
 
 - Phụ kiện đi kèm: Nhãn mẫu TZe-251, Cáp nối USB, Hướng dẫn sử dụng 
 
-', 3 ),
+'),
 		(5, 38, 28, 8, 'Canon Printer',3400000, 10, N'PIXMA TS207
 
 Máy In Nhỏ Gọn Và Thời Trang Với Hộp Mực Chi Phí Thấp
@@ -1212,7 +1207,7 @@ Mực in chi phí thấp: Cartridge mực với giá cả dễ chịu mà vẫn 
 
 Bề mặt máy in cho phép chống lại các vết xước do va chạm hoặc móng tay cào gây ra.
 
-In ảnh tràn viền lên tới cỡ 4R.', 6 ),
+In ảnh tràn viền lên tới cỡ 4R.'),
 		(5, 37, 18, 8, 'HY300 Pro Projector', 500000, 30, N'🔹 THÔNG SỐ KỸ THUẬT
 
  ◾ Model	4003dw (2Z610A)
@@ -1239,7 +1234,7 @@ In ảnh tràn viền lên tới cỡ 4R.', 6 ),
 
  ◾ Kích thước: 381 x 357 x 216 mm
 
- ◾ Trọng lượng: 8,56 kg', 10),
+ ◾ Trọng lượng: 8,56 kg'),
 		(5, 37, 18, 8, 'Y300 Pro Projector', 350000, 16, N'🔹 THÔNG SỐ KỸ THUẬT
 
  ◾ Model	4003dw (2Z610A)
@@ -1266,7 +1261,7 @@ In ảnh tràn viền lên tới cỡ 4R.', 6 ),
 
  ◾ Kích thước: 381 x 357 x 216 mm
 
- ◾ Trọng lượng: 8,56 kg', 12),
+ ◾ Trọng lượng: 8,56 kg'),
  (5, 37, 18, 8, 'H8 Pro Max Projector', 320000, 16, null, 12),
 		(5, 37, 18, 8, 'China Projector', 800000, 5, N'Bộ xử lý TV
 Full HD
@@ -1291,7 +1286,7 @@ Bảo hành quốc tế
 Tiêu thụ điện năng
 150W
 Điện áp đầu vào
-220V', 4),
+220V'),
 		(4, 32, 29, 8, 'LG Remote', 129000, 10, N'Thời gian giao hàng dự kiến cho sản phẩm này là từ 7-9 ngày
 
 Remote AN-MR600 ANMR600 thay thế cho LG OLED TV LED HDTV
@@ -1321,7 +1316,7 @@ Remote có 6 nút nhấn:
 
 REMOTE QUẠT SENKO LÀ PHỤ KIỆN CHÍNH HÃNG VÀ PHÙ HỢP VỚI TẤT CẢ CÁC QUẠT ĐIỀU KHIỂN TỪ XA SENKO.
 
-Remote sử dụng: Pin AAA x 2 (chưa kèm pin)', 70),
+Remote sử dụng: Pin AAA x 2 (chưa kèm pin)'),
 		(4, 32, 18, 8, 'TCL Remote', 99000, 20, N'Remote điều khiển điều hòa dành cho máy lạnh TCL, Điện Lạnh Thuận Dung
 
 Lưu ý:
@@ -1338,10 +1333,10 @@ Sử dụng 2 pin AAA.
 
  MUA REMOTE MÁY LẠNH Ở ĐÂU ?
 
-(Ship COD toàn quốc)', 25),
+(Ship COD toàn quốc)'),
 		(4, 32, 18, 8, 'Gate Remote', 45000, null, N'Remote M40M - sản phẩm chính hãng KDK
 Điều khiển với các nút bấm linh hoạt
-Sử dụng cho quạt treo tường KDK M40M', 69),
+Sử dụng cho quạt treo tường KDK M40M'),
 		(4, 27, 30, 8, 'Xiaomi EA Pro Smart Tivi',10999999, 5, N'THÔNG SỐ KỸ THUẬT
 
 📍Tên sản phẩm: Xiaomi Google Tivi 4K 43 inch 43A Pro 
@@ -1418,7 +1413,7 @@ Sử dụng cho quạt treo tường KDK M40M', 69),
 
 📍Giắc cắm tai nghe 3.5 mm x 1
 
-', 30),
+'),
 		(4, 27, 31, 8, 'Google Tivi QLED TOSHIBA',24999999, 5, N'- Lưu ý: COOCAA nhận thông tin xuất hóa đơn VAT theo yêu cầu trong 3 ngày đầu đặt hàng qua kênh chat, nếu qua 3 ngày đặt hàng COOCAA sẽ xuất hóa đơn theo thông tin cá nhân trên đơn hàng.
 
 * Tivi Thông Minh Coocaa Hệ Điều Hành Mới Nhất Google Tivi 70" 70C9
@@ -1501,7 +1496,7 @@ thanh phong phú, rõ ràng và hấp dẫn để bạn thưởng thức.
 
 - Memory 2+16GB 
 
-', 10),
+'),
 		(4, 27, 11, 8, 'Google Tivi',14999999, 20, N'"Thương hiệu: TCL
 
 Độ Phân Giải Màn Hình: 4k UHD
@@ -1522,7 +1517,7 @@ Dòng sản phẩm        : 55T66
 
 Loại Bảo Hành: Bảo hành điện tử
 
-Thời gian bảo hành: 2 năm', 3),
+Thời gian bảo hành: 2 năm'),
 		(4, 27, 18, 8, 'Tivi full',8600000, 15, N'Độ phân giải: Full HD
 
 Công nghệ tràn viền vô cực
@@ -1574,7 +1569,7 @@ _ Đa kết nối - Đa phương tiện
 
 Sử dụng USB để phát phim hoặc nhạc ở nhiều định dạng, kết nối HDMI để mở rộng màn hình máy tính, kết nối loa ngoài để thưởng thức âm thanh vòm.
 
-Các cổng: HDMI x 2; S/PDIF out; USB x 2; LAN. x 1', 10),
+Các cổng: HDMI x 2; S/PDIF out; USB x 2; LAN. x 1'),
 		(4, 27, 30, 8, 'Xiaomi 65inch Smart Tivi',9999999, 5, N'THÔNG SỐ KỸ THUẬT
 
 📍Tên sản phẩm: Xiaomi Google Tivi 4K 43 inch 43A Pro 
@@ -1649,7 +1644,7 @@ Các cổng: HDMI x 2; S/PDIF out; USB x 2; LAN. x 1', 10),
 
 📍Khe CI x 1
 
-📍Giắc cắm tai nghe 3.5 mm x 1', 7),
+📍Giắc cắm tai nghe 3.5 mm x 1'),
 		(4, 27, 18, 8, 'Television Full option',7900000, 7, N'- Độ phân giải 4K với mật độ điểm ảnh cao giúp tái hiện các thước phim chi tiết, sống động. 
 
 - Bộ xử lý X1 4K HDR xử lý hình ảnh tinh vi, giảm nhiễu, giảm mờ, tăng độ chi tiết cho bạn được thưởng thức khung hình chất lượng cao, hình ảnh rõ đẹp, cuốn hút. 
@@ -1665,22 +1660,15 @@ Các cổng: HDMI x 2; S/PDIF out; USB x 2; LAN. x 1', 10),
 
 - S-Master Digital Amplifier khuếch đại âm thanh đồng thời loại bỏ tiếng ồn, độ nhiễu để bạn được trải nghiệm âm thanh mạnh mẽ, trong trẻo.
 
-- Loa X-Balanced có kiểu dáng độc đáo nhằm hoàn thiện độ mỏng tivi và chất lượng âm thanh để truyền tải chất âm rõ rệt hơn.', 10),
+- Loa X-Balanced có kiểu dáng độc đáo nhằm hoàn thiện độ mỏng tivi và chất lượng âm thanh để truyền tải chất âm rõ rệt hơn.'),
 		(15, 111,9,6,'Apple Watch', 7000000, null, N'Nhắc đến smartwatch nổi bật nhất năm 2023 chắc chắn không thể thiếu cái tên Apple Watch Series 9, trong đó mẫu Apple Watch Series 9 GPS Sport Band S/M với vẻ ngoài tinh tế, bộ vi xử lý trung tâm đầy nội lực, màn hình sáng vượt trội cùng tính năng chạm hai lần độc đáo hứa hẹn sẽ chinh phục người dùng khó tính nhất. 
-
-
-
 Phong cách trẻ trung, thiết kế hiện đại
 
 Apple Watch S9 có thiết kế tối giản, các chi tiết chế tác chỉn chu, đẹp mắt kể cả khi bạn hạ cổ tay xuống. Trang bị mặt đồng hồ kích cỡ 41 mm / 45 mm, chất liệu kính cường lực Ion-X bền bỉ được thiết kế tràn viền cho không gian trải nghiệm rộng mở, giúp bạn thực hiện các thao tác trượt, vuốt ngón tay trên mặt kính nhẹ nhàng, thoải mái.
 
 Chất liệu khung viền hợp kim nhôm cứng cáp, hạn chế rỉ sét, móp méo, sử dụng bền bỉ trong thời gian dài. Dây đeo được làm từ silicone không thấm nước, kiểu dây ngắn đục lỗ cho bạn tùy chỉnh độ rộng dễ dàng để đeo vừa khít với cổ tay, không bị rơi rớt, lỏng lẻo khi cử động. 
 
-
-
 Đảm bảo trải nghiệm xem của bạn luôn chân thực với các nội dung hiển thị rõ ràng, màu sắc phong phú, sinh động nhờ có tấm nền OLED. Đặc biệt, độ sáng tối đa 2000 nits và tối thiểu 1 nit cho người dùng đọc thông tin trên màn hình dễ dàng, dù trong điều kiện ánh nắng chói chang hay ánh sáng kém trong góc hành lang. 
-
-
 
 Tác vụ xử lý mượt mà với cấu hình mạnh mẽ
 
@@ -1691,9 +1679,6 @@ Thao tác mới Chạm hai lần được hỗ trợ bởi Neural Engine 4 lõi 
 Hệ điều hành WatchOS 10 (tại thời điểm ra mắt) có thiết kế giao diện gọn gàng, cho phép truy cập vào các ứng dụng, tính năng thuận tiện, người dùng không mất nhiều thời gian để làm quen và trải nghiệm. Bên cạnh đó, Apple cũng bổ sung chế độ Ngăn xếp thông minh giúp xem các tiện ích nhanh bằng nút Digital Crown.
 
 Lưu ý: Apple Watch S9 tương thích với dòng iPhone Xs trở lên và sử dụng hệ điều hành iOS 17 trở lên.
-
-
-
 Cảm biến tiên tiến cung cấp các chỉ số sức khỏe chuẩn xác 
 
 Bạn có thể kịp thời phát hiện nhịp tim bất thường của mình qua cảnh báo nhắc nhở nhịp tim cao/thấp, không đều sau khi cảm biến nhịp tim quang học thế hệ 3 đo chỉ số nhịp tim.
@@ -1703,15 +1688,9 @@ Ngoài ra, cảm biến điện học (ECG) trên đồng hồ cũng sẽ cung c
 Bên cạnh đó, đồng hồ còn có khả năng đo SpO2, theo dõi giấc ngủ, tích hợp ứng dụng Chú tâm mới thu thập và ghi lại thông tin về trạng thái tinh thần. Các dữ liệu sức khỏe này sẽ luôn được giữ riêng tư và an toàn, không được chia sẻ nếu bạn không cho phép. 
 
 Tính năng Phát hiện va chạm và Phát hiện té ngã hoạt động thông minh khi có khả năng tự động kết nối người dùng với dịch vụ khẩn cấp, gọi điện hoặc gửi thông báo bằng văn bản cho số liên hệ khẩn cấp, khi phát hiện người đeo bị lực tác động mạnh trong lúc chơi thể thao, xảy ra va chạm giao thông mạnh,... nếu người dùng không phản hồi trong thời gian nhất định.
-
-
-
 Luyện tập theo cách bạn muốn với các bài tập phong phú
 
 Mẫu đồng hồ thông minh này sẽ mang đến những buổi tập thú vị, khi bạn có thể chọn các môn thể thao mà mình hứng thú để rèn luyện với bộ sưu tập đa dạng như: Chạy bộ, đạp xe, bài tập HIIT, Pilates, Squat, Yoga,... Chế độ xem trong ứng dụng Bài tập cũng có thể đưa ra nhiều thông tin hữu ích để bạn theo dõi, xây dựng kế hoạch rèn luyện bài bản, nâng cao thể chất. 
-
-
-
 Bảo vệ đồng hồ với chuẩn chống nước 5 ATM, viên pin đủ dùng
 
 Với tiêu chuẩn chống nước đạt mức 5 ATM - ISO 22810:2010, đồng hồ sẽ được bảo vệ khi bạn đeo lúc rửa tay, tắm, bơi ở vùng nước nông,... Tuy nhiên, bạn không nên mang đồng hồ tham gia các hoạt động có áp suất nước cao, phòng tắm hơi, tắm nước nóng,...
@@ -1722,9 +1701,9 @@ Với một lần nạp đầy pin, đồng hồ hoạt động liền mạch tr
 
 Thêm nhiều tiện ích hơn nữa
 
-Chiếc Apple Watch này sẽ làm bạn bất ngờ với những tính năng mà thiết bị đang sở hữu như: Dùng giọng nói để điều khiển đồng hồ cùng trợ lý giọng nói Siri, nâng cổ tay sáng màn hình, gọi khẩn cấp SOS khi cần hỗ trợ, Apple Pay giúp việc thanh toán các hóa đơn hằng ngày nhanh chóng hơn, tính năng tìm điện thoại sử dụng khi bạn quên chỗ đặt iPhone với hướng dẫn được cung cấp chi tiết,...', 41 ),
-		(15, 111,18,6,'HUAWEI Band 9', 1090000, 12, N'Đồng Hồ Thông Minh HUAWEI WATCH FIT 3 Xám (Dây Nylon) | Thiết Kế Mỏng Nhẹ | Màn Hình AMOLED 1.82" | Quản Lý Tập Luyện Toàn Diện | Thời Lượng Sử Dụng Lên Đến 10 Ngày', 23 ),
-		(15, 111,18,6,'AI Watch', 30, 10, N'Đồng hồ thông minh JUNIOR09 WATCH 9, Smartwatch Nghe gọi, Zl - Mess, Chơi game, GPT AI, Nhịp tim, Chống nước cho Nam nữ', 23 ),
+Chiếc Apple Watch này sẽ làm bạn bất ngờ với những tính năng mà thiết bị đang sở hữu như: Dùng giọng nói để điều khiển đồng hồ cùng trợ lý giọng nói Siri, nâng cổ tay sáng màn hình, gọi khẩn cấp SOS khi cần hỗ trợ, Apple Pay giúp việc thanh toán các hóa đơn hằng ngày nhanh chóng hơn, tính năng tìm điện thoại sử dụng khi bạn quên chỗ đặt iPhone với hướng dẫn được cung cấp chi tiết,...'),
+		(15, 111,18,6,'HUAWEI Band 9', 1090000, 12, N'Đồng Hồ Thông Minh HUAWEI WATCH FIT 3 Xám (Dây Nylon) | Thiết Kế Mỏng Nhẹ | Màn Hình AMOLED 1.82" | Quản Lý Tập Luyện Toàn Diện | Thời Lượng Sử Dụng Lên Đến 10 Ngày'),
+		(15, 111,18,6,'AI Watch', 30, 10, N'Đồng hồ thông minh JUNIOR09 WATCH 9, Smartwatch Nghe gọi, Zl - Mess, Chơi game, GPT AI, Nhịp tim, Chống nước cho Nam nữ'),
 		(15, 111,9,6,'Apple Watch Pro', 9000000, 15, N' *Thông Tin Kĩ Thuật:
 
 - Bluetooth: BLE 5.0
@@ -1752,7 +1731,7 @@ Chiếc Apple Watch này sẽ làm bạn bất ngờ với những tính năng m
 - Thời gian sạc khoảng 3 giờ
 
 - Thời gian chờ: 3 ngày tùy nhu cầu
-', 71 ),
+'),
 		(5, 34, 18, 8, 'Keyboard good',220000, 9, N'Thông số kỹ thuật:
 
 Thương hiệu: Royal Kunk
@@ -1783,8 +1762,8 @@ Tính năng:
 
 3.Bàn phím này sử dụng góc nghiêng được thiết kế công thái học và các phím bấm có bậc để giảm thiểu sự mệt mỏi trong quá trình sử dụng.
 
-4.Có thể thay thế nóng- PCB trao đổi nóng cho phép', 19 ),
-		(5, 34, 18, 8, 'Keyboard beauty',230000, 20, N'Sảm phẩm có hai phiên bản K3 và K3 MAX: K3 MAX được update thêm hai màu mới và nâng cấp thêm hai lớp đệm  tiêu âm và đã được căn chỉnh nút cho tiếng ngõ êm hơn', 10 ),
+4.Có thể thay thế nóng- PCB trao đổi nóng cho phép'),
+		(5, 34, 18, 8, 'Keyboard beauty',230000, 20, N'Sảm phẩm có hai phiên bản K3 và K3 MAX: K3 MAX được update thêm hai màu mới và nâng cấp thêm hai lớp đệm  tiêu âm và đã được căn chỉnh nút cho tiếng ngõ êm hơn'),
 		(5, 34, 18, 8, 'Keyboard LED RGB',320000, 15, N'Tất cả các mặt hàng phải trải qua quy trình kiểm tra trước khi vận chuyển
 
 ✅ Usb qua
@@ -1809,7 +1788,7 @@ Rk96 Ba chế độ bàn phím cơ trao đổi nóng
 
 • • Đèn nền trắng / RGB tinh khiết, có thể chuyển đổi các hiệu ứng ánh sáng động
 
-• • Pin liti 3750 mah', 30 ),
+• • Pin liti 3750 mah'),
 		(5, 34, 18, 8, 'Keyboard office',140000, 15, N'𝟏.𝐓𝐇𝐎̂𝐍𝐆 𝐓𝐈𝐍 𝐒𝐀̉𝐍 𝐏𝐇𝐀̂̉𝐌: 
 
 - Khung nhôm cao cấp 
@@ -1852,7 +1831,7 @@ Rk96 Ba chế độ bàn phím cơ trao đổi nóng
 
 𝐊𝐡𝐮𝐧𝐠 𝐡𝐨̛̣𝐩 𝐤𝐢𝐦 𝐧𝐡𝐨̂𝐦 𝐜𝐚𝐨 𝐜𝐚̂́𝐩
 
-HyperOne Gen 2 sở hữu khung hợp kim nhôm cắt vát CNC tỉ mỉ, cạnh được phủ mờ, độ hoàn thiện cao mang đến tổng thể tinh tế và thời thượng.', 99),
+HyperOne Gen 2 sở hữu khung hợp kim nhôm cắt vát CNC tỉ mỉ, cạnh được phủ mờ, độ hoàn thiện cao mang đến tổng thể tinh tế và thời thượng.'),
 		(5, 35, 13, 8, 'Laptop Asus',21000000, 15, N'Thông số kỹ thuật:
 
 CPU: Intel® Core™ i3-1115G4 (upto 4.10GHz, 6MB)
@@ -1891,7 +1870,7 @@ Công nghệ màn hình Anti Glare chống chói khi làm việc ở nơi ánh s
 
 Công nghệ SonicMaster mang đến âm thanh trở nên to, rõ ràng, sống động
 
-Laptop Asus X415E có trọng lượng nhẹ 1.55kg dễ dàng mang theo sử dụng', 9),
+Laptop Asus X415E có trọng lượng nhẹ 1.55kg dễ dàng mang theo sử dụng'),
 		(5, 35, 27, 8, 'Laptop Hp old',6000000, 10, N'THÔNG SỐ KỸ THUẬT
 
 •	CPU	Intel Core i3-1215U 1.2GHz up to 4.4GHz 10MB
@@ -1954,7 +1933,7 @@ Laptop Asus X415E có trọng lượng nhẹ 1.55kg dễ dàng mang theo sử d�
 
 • Đối với sản phẩm trên 20 triệu ( Bao gồm các khoản trợ giá nếu có) . Shop xin miễn trừ trách nhiệm không xuất VAT công ty. Chỉ mặc định xuất hóa đơn cá nhân để bảo hành sản phẩm.
 
-', 1),
+'),
 		(5, 35, 13, 8, 'Laptop Asus Gaming',23000000, 10, N'CPU	Intel® Core™ i5-12500H Processor 2.5 GHz (18M Cache, up to 4.5 GHz, 12 cores: 4 P-cores and 8 E-cores)
 
 RAM	8GB DDR4 3200MHz (2x SO-DIMM socket, up to 32GB RAM)
@@ -1999,7 +1978,7 @@ Trọng lượng	2.2 kg
 
 Màu sắc	Jaeger Gray
 
-Kích thước	35.4 x 25.1 x 2.24 ~ 2.49 cm', 4),
+Kích thước	35.4 x 25.1 x 2.24 ~ 2.49 cm'),
 		(5, 35, 9, 8, 'Macbook M1',17000000, 5, N'Máy tính xách tay mỏng và nhẹ nhất của Apple, nay siêu mạnh mẽ với chip Apple M1. Xử lý công việc giúp bạn với CPU 8 lõi nhanh như chớp. Đưa các ứng dụng và game có đồ họa khủng lên một tầm cao mới với GPU 7 lõi. Đồng thời, tăng tốc các tác vụ máy học với Neural Engine 16 lõi. Tất cả gói gọn trong một thiết kế không quạt, giảm thiểu tiếng ồn, thời lượng pin dài nhất từ trước đến nay lên đến 18 giờ (1) MacBook Air. Vẫn cực kỳ cơ động. Mà mạnh mẽ hơn nhiều.
  
 Tính năng nổi bật 
@@ -2019,7 +1998,7 @@ Tính năng nổi bật
 •       Bàn phím Magic Keyboard có đèn nền và Touch ID giúp mở khóa và thanh toán an toàn hơn 
 •       macOS Big Sur với thiết kế mới đầy táo bạo cùng nhiều cập nhật quan trọng cho các ứng dụng Safari, Messages và Maps 
 •       Hiện có màu vàng kim, xám bạc và bạc 
-', 9),
+'),
 		(5, 35, 32, 8, 'Laptop Microsoft',12000000, 10, N'✅ CẤU HÌNH CHI TIẾT: Dell & Hp 12.5 inch ; 14 inch và 15.6 inch
 
 - Hệ điều hành: cài sẵn Window 10 và (office)
@@ -2042,10 +2021,10 @@ Tính năng nổi bật
 
 - Trọng lượng: 1.6 kg
 
-- Kích thước: 333.4.00 x 228.9 mm x 20.3 mm', 4),
+- Kích thước: 333.4.00 x 228.9 mm x 20.3 mm'),
 		(5, 34, 18, 8, 'Mouse VXE',140000, 15, N'Có thể tương thích mọi hệ điều hành (window , mac os, androi, lOS) kết nối máy tính, laptop , macbok , máy tính bảng, điện thoại. Linh hoạt chuyển giữa 2 chế đố wireless và bluetooth
 
-Nâng cấp khả năng kết nối so với các phiên bản đi trước, kết nối qua wireless và bluetooth nhưng tốc độ phản hồi vẫn rất cao ≈ 1ms tương đương với 1 con chuột gamingThiết kế chông ồn silent giúp không gây ảnh hưởng đến mọi người xung quanh, tắt âm hoàn toàn giúp bạn dù có làm việc về đêm hay làm trong môi trường công sở đều rất thoải mái', 99),
+Nâng cấp khả năng kết nối so với các phiên bản đi trước, kết nối qua wireless và bluetooth nhưng tốc độ phản hồi vẫn rất cao ≈ 1ms tương đương với 1 con chuột gamingThiết kế chông ồn silent giúp không gây ảnh hưởng đến mọi người xung quanh, tắt âm hoàn toàn giúp bạn dù có làm việc về đêm hay làm trong môi trường công sở đều rất thoải mái'),
 		(5, 34, 18, 8, 'Tech-zone Mouse',240000, 10, N'🔰 THÔNG SỐ KỸ THUẬT CHUỘT KHÔNG DÂY BASEUS F01A
 
 🔸 Thương hiệu: Baseus
@@ -2068,7 +2047,7 @@ Nâng cấp khả năng kết nối so với các phiên bản đi trước, k�
 
 🔸 Tần số: 250Hz
 
-🔸 Tương thích với: Windows, Apple OS, Linux, Vista, HarmonyOS, etc...', 29),
+🔸 Tương thích với: Windows, Apple OS, Linux, Vista, HarmonyOS, etc...'),
 		(5, 34, 18, 8, 'inphic Mouse',310000, 25, N'• Kết nối được qua 3 chế độ: Bluetooth 4.0/ Bluetooth 5.0/ USB WIRELESS
 
 • Thiết kế tắt tiếng click, chống ồn trong môi trường văn phòng, công cộng
@@ -2079,8 +2058,8 @@ Nâng cấp khả năng kết nối so với các phiên bản đi trước, k�
 
 • Trang bị cổng sạc nhanh Type C
 
-• Có đèn LED hiển thị mức pin', 69),
-		(5, 34, 18, 8, 'Dragonfly Mouse',190000, 30, N'Sử dụng mắt đọc quang học mới nhất hiện nay lên đến 1000 HZ, 7000 FPS , 60 IPS giúp cải thiện độ trễ xuống chỉ còn 1ms. Sánh ngang chuột cao cấp trên thị trườngMọi thông số của chuột đều có thể điều chỉnh qua app giúp phục vụ tốt mọi tác vụ từ làm việc đến giải tríHiệu ứng ánh sáng đèn led 16 triệu màu với tuỳ chỉnh theo ý muốn vô cùng đẹp', 09),
+• Có đèn LED hiển thị mức pin'),
+		(5, 34, 18, 8, 'Dragonfly Mouse',190000, 30, N'Sử dụng mắt đọc quang học mới nhất hiện nay lên đến 1000 HZ, 7000 FPS , 60 IPS giúp cải thiện độ trễ xuống chỉ còn 1ms. Sánh ngang chuột cao cấp trên thị trườngMọi thông số của chuột đều có thể điều chỉnh qua app giúp phục vụ tốt mọi tác vụ từ làm việc đến giải tríHiệu ứng ánh sáng đèn led 16 triệu màu với tuỳ chỉnh theo ý muốn vô cùng đẹp'),
 		(5, 34, 18, 8, 'Rack F80 & G45',420000, 15, N'- Thích hợp với màn hình: 22 - 40 inch.
 
 - Tải trọng: 2 - 15 kg.
@@ -2095,7 +2074,7 @@ Nâng cấp khả năng kết nối so với các phiên bản đi trước, k�
 
 - Góc xoay: +-90 độ.
 
-- Mở rộng theo chiều dọc tối đa: 630mm.', 9),
+- Mở rộng theo chiều dọc tối đa: 630mm.'),
 		(5, 34, 18, 8, 'Rack Macbook',240000, 25, N'Giá Đỡ Ipad N4 Tản Nhiệt Cho Máy Tính Xách Tay Laptop Làm Bằng Chất Liệu Nhôm Có Thể Gấp Gọn Cho Nhân Viên Văn Phòng
 
 -Có thể điều chỉnh góc nghiêng và gấp gọn, tiện lợi
@@ -2113,7 +2092,7 @@ Nâng cấp khả năng kết nối so với các phiên bản đi trước, k�
 -Làm giá đỡ laptop, máy tính bảng, đọc sách
 
 -Gập gọn thông minh, dễ dàng mang đi theo mình. 
-', 19),
+'),
 		(5, 34, 18, 8, 'Rack Macbook',210000, 15, N'Giá Đỡ Ipad N4 Tản Nhiệt Cho Máy Tính Xách Tay Laptop Làm Bằng Chất Liệu Nhôm Có Thể Gấp Gọn Cho Nhân Viên Văn Phòng
 
 -Có thể điều chỉnh góc nghiêng và gấp gọn, tiện lợi
@@ -2131,7 +2110,7 @@ Nâng cấp khả năng kết nối so với các phiên bản đi trước, k�
 -Làm giá đỡ laptop, máy tính bảng, đọc sách
 
 -Gập gọn thông minh, dễ dàng mang đi theo mình. 
-', 29),
+'),
 		(5, 39, 18, 8, 'Screen PC',350000, null, N'Thương hiệu
 Xiaomi
 Kích thước màn hình
@@ -2157,13 +2136,10 @@ Tên tổ chức chịu trách nhiệm sản xuất
 Địa chỉ tổ chức chịu trách nhiệm sản xuất
 Đang cập nhật
 Model màn hình và LCD
-LCD', 11),
+LCD'),
 (5, 39, 10, 8, 'Samsung Screen PC',750000, 25, N'+ màn hình hiển thị - Màn phẳng Xstar 27in - Mới 100% FULL BOX
 
  + linh phụ kiện tất nhiên :HDMI Hoặc VGA + NGUỒN
-
-
-
 THÔNG SỐ kỹ năng :
 
 - Model : GL27 và GL27 FULL VIỀN
@@ -2194,7 +2170,7 @@ THÔNG SỐ kỹ năng :
 
 - Màu sắc: Đen
 
-- tải trọng : 4 kg', 11),
+- tải trọng : 4 kg'),
 		(5, 39, 29, 8, 'LG Screen PC',1050000, 15, N'Màn hình IPS Full HD Màu sắc chân thực ở góc rộng. Màn hình Tomko với công nghệ IPS làm nổi bật hiệu suất của màn hình tinh thể lỏng. Rút ngắn thời gian phản hồi, cải thiện khả năng tái tạo màu sắc và người dùng có thể xem ở các góc rộng. 
 
 
@@ -2247,12 +2223,12 @@ HDR: Hỗ trợ VESA HDR400
 
 – Lỗ cắm Microphone 
 
-– DC', 11),
+– DC'),
 		(5, 39, 10, 8, 'Samsung Screen Monitor PC',1250000, 15, N'Quan sát cả trận đấu với màn hình đạt độ cong hoàn hảo 1000R
 
 Màn Hình Gaming Samsung Odyssey G5 Ultra WQHD G55T đem đến khả năng quan sát cả trận đấu mà người dùng tham gia, màn hình với độ cong lý tưởn 1000R tối ưu cho trải nghiệm thị giác của người dùng.Sắc nét hơn với độ phân giải Ultra WQHD, tần số quét siêu tốc 165Hz
 
-Không bó buộc bạn trong khuôn khổ, Samsung Gaming Odyssey G5 LC34G55TWWEXXV đem đến chất lượng hiển thị sắc nét và rộng lớn với độ phân giải Ultra WQHD. Tần số quét 165Hz bức phá mọi giới hạn trong việc trải nghiệm của game thủ, từ đó mọi hành động của bạn hầu như là tức thì. Hạn chế tình trạng giựt, chống rung mờ trong chuyển động.', 11),
+Không bó buộc bạn trong khuôn khổ, Samsung Gaming Odyssey G5 LC34G55TWWEXXV đem đến chất lượng hiển thị sắc nét và rộng lớn với độ phân giải Ultra WQHD. Tần số quét 165Hz bức phá mọi giới hạn trong việc trải nghiệm của game thủ, từ đó mọi hành động của bạn hầu như là tức thì. Hạn chế tình trạng giựt, chống rung mờ trong chuyển động.'),
 		(2, 12, 17, 3, 'Short Pants DirtyCoins', 390000, 10, N'Chi tiết sản phẩm:
 
 • Màu sắc: Đen
@@ -2267,14 +2243,14 @@ Không bó buộc bạn trong khuôn khổ, Samsung Gaming Odyssey G5 LC34G55TWW
 
 • Pattern monogram được dệt full trên bề mặt vải.
 
-• Có túi hai bên và một túi sau lưng quần.', 20 ),
+• Có túi hai bên và một túi sau lưng quần.'),
 		(2, 14, 18, 3, 'Skiny Jean', 430000, 15, N'- Stretch denim - Jean thun co giãn: 98% cotton 2% spandex.
 
 - Độ bền màu cao, vải dày 11 oz, wash màu chuyên nghiệp.
 
 - Form dáng Skinny fit.
 
-', 29 ),
+'),
 		(2, 12, 1, 3, 'Short Pants Nike', 590000, 19, N'Quần short nam BamBoostreetwear cotton dày dặn không xù 256
 
 ✔ Chất cotton 100% dày dặn, thoáng mát
@@ -2285,7 +2261,7 @@ Không bó buộc bạn trong khuôn khổ, Samsung Gaming Odyssey G5 LC34G55TWW
 
   Hình ảnh có thể giống nhau nhưng chất vải và đường may làm nên chất lượng. 
 
-Màu sắc & kích cỡ: form áo Âu thoải mái không gò bó khi vận động tạo nên sự nặng động, trẻ trung,...', 29 ),
+Màu sắc & kích cỡ: form áo Âu thoải mái không gò bó khi vận động tạo nên sự nặng động, trẻ trung,...' ),
 		(1, 4, 18, 3, 'Snap Pants Jogger', 290000, 5, N'Mô tả sản phẩm : Quần ống suông nam PEALO vải kaki nhung casual pants trơn basic chất liệu mới Loose Pants phong cách Minimalism
 
 _ Trắng - Đen- Be- Xanh Than...v..v
@@ -2318,20 +2294,14 @@ _ Việt Nam
 
 - Hai túi phía trước được may vát chéo, thêm 2 túi sau sâu rộng để được nhiều đồ, tiện lợi.
 
-', 80 ),
+'),
 		(1, 4, 24, 3, 'Denim Work Pants Jogger', 390000, 10, N'+ Chất Liệu : Dù
 + Form : Cơ Bản
 + Màu sắc : Trắng / Đen
 Do màn hình và điều kiện ánh sáng khác nhau, màu sắc thực tế của sản phẩm có thể chênh lệch khoảng 5-10%
-', 30 ),
+'),
 		(2, 12, 2, 3, 'Short Pants Adidas', 790000, 19, N'Từ các vận động viên chuyên nghiệp, gymer cho đến các chiến binh tập luyện tại nhà, quần short luôn là lựa chọn đúng đắn. Như chiếc Quần Short Vải Dệt 3 Sọc TRAINICONS này.
-
- 
-
 Dáng regular fit được thiết kế cho phép bạn tự do vận động trong mọi bài tập. Thêm vào đó, sử dụng chất vải đánh bay mồ hôi hoặc thấm hút ẩm, các sản phẩm adidas AEROREADY giúp bạn luôn cảm thấy khô ráo, sảng khoái và thoải mái khi tập luyện.
-
-
-
 Chất vải nhẹ sang chảnh dễ dàng phối đồ và cho cảm giác thoải mái. Bạn cũng sẽ luôn sẵn sàng tập luyện, với cạp cao vừa giúp quần ôm chắc chắn. 3 Sọc kinh điển hoàn thiện vẻ ngoài hiện đại, với thiết kế nâng cấp ôm quanh ống quần, tạo ấn tượng khó quên. Và điểm đặc biệt là? Squat thoải mái — vì bạn được che chắn tuyệt đối.
 
 - Ôm vừa, cạp cao
@@ -2340,7 +2310,7 @@ Chất vải nhẹ sang chảnh dễ dàng phối đồ và cho cảm giác tho�
 
 - Vải dệt trơn làm từ 87% polyester tái chế, 13% elastane
 
-- Công nghệ AEROREADY thấm hút ẩm', 28 ),
+- Công nghệ AEROREADY thấm hút ẩm'),
 		(1, 4, 24, 3, 'Jean Wash Roman ', 360000, 15, N'📍 Quần jeans retro nam SIMPLE BLUE ống rộng mầu đen xám wash smoke v1 Không Bai Xù, Bền Màu Hàng Cao Cấp JS05
 
 📍 Chất liệu: Jeans dày dặn, siêu bền, không phai màu 📍Màu sắc: #Xámwash, #Xanhwash, #jeanĐen, #Jeanxanh, #jeansmoke
@@ -2395,7 +2365,7 @@ Chất vải nhẹ sang chảnh dễ dàng phối đồ và cho cảm giác tho�
 
 + Không giặt chung với đồ dễ xước
 
-+ Cẩn thận vướng mắc khi phơi', 33 ),
++ Cẩn thận vướng mắc khi phơi'),
 		(2, 12, 18, 3, 'Short Pants Lining', 460000, 10, N'Quần short nam URBAN thể thao vải gió thoáng mát, thoải mái, chuẩn phom, không bết dính, không khăn, siêu nhẹ NO 2035
 
 
@@ -2408,7 +2378,7 @@ Chất vải nhẹ sang chảnh dễ dàng phối đồ và cho cảm giác tho�
 
 + Co giãn 2 chiều
 
-+ Nhanh khô', 23 ),
++ Nhanh khô'),
 		(7, 51, 18, 4, 'Shoes Balenciaga', 890000, 10, N'Chất liệu trên: PU
 
 Chiều cao gót: Gót thấp 2-3CM 
@@ -2429,7 +2399,7 @@ Kích thước: 36,37,38,39,40,41,42,43
 
 Nơi sản xuất: Quảng Châu.
 
-Bảo hành: Đổi trả trong vòng 7 ngày', 23),
+Bảo hành: Đổi trả trong vòng 7 ngày'),
 		(7, 51, 8, 4, 'Shoes Gucci', 6090000, 10, N'Giày_AF1 Gucci,Giày Thể Thao_AF1 Gucci Nam Nữ Cá Tính Thời Trang Phù Hợp Đi Chơi Đi Học Full Box Bill
 
 
@@ -2440,7 +2410,7 @@ Bảo hành: Đổi trả trong vòng 7 ngày', 23),
 
 📌 Thông Số Kích Thước : 36 -> 43
 
-📌 Chất Liệu : Da, Cao Su, Canvas ...', 14),
+📌 Chất Liệu : Da, Cao Su, Canvas ...'),
 		(7, 51, 18, 4, 'Shoes Givenchy', 390000, 7, N'Thông tin sản phẩm: Sneaker nam G2 Gera kiểu giày trắng nam dáng thể thao, Giày da nam trắng thời trang dễ phối đồ đi làm đi học
 
 - Sản phẩm: Sneaker Gera
@@ -2453,7 +2423,7 @@ Chất liệu:
 
 - Size giày 38 - 43
 
-- Nơi sản xuất: Việt Nam', 69),
+- Nơi sản xuất: Việt Nam'),
 		(7, 51, 1, 4, 'Shoes Nike Jordan', 720000, 10, N'Giày_Jordan 1 Low Panda Cổ Thấp Nam Nữ,Giày_Jordan 1 Cổ Thấp Đủ Màu Trẻ Trung Năng Động Cá Tính Dành Cho Nam Và Nữ
 
 
@@ -2464,7 +2434,7 @@ Chất liệu:
 
 📌 Thông Số Kích Thước : 36-37-38-39-40-41-42-43
 
-📌 Chất Liệu : Da, Cao Su, Canvas ...', 23);
+📌 Chất Liệu : Da, Cao Su, Canvas ...');
 
 
 Insert into [ImageProducts](product_id, imageProduct_url)
@@ -3048,3 +3018,14 @@ Values('S'),
 		('Yellow-512GB'),
 		('Yellow-1TGB'),
 		('Over Size')
+
+INSERT INTO [dbo].[ProductType]
+           ([product_id],[type_id], quantity)
+     VALUES (1,1,20), (1,2,2), (1,3,20), (1,4,10), (1,5,20),
+			(2,1,20), (2,2,20), (2,3,20), (2,4,20), (2,5,20),
+			(1,1,20), (1,1,20), (1,1,20), (1,1,20), (1,1,20),
+			(1,1,20), (1,1,20), (1,1,20), (1,1,20), (1,1,20),
+			(1,1,20), (1,1,20), (1,1,20), (1,1,20), (1,1,20),
+			(1,1,20), (1,1,20), (1,1,20), (1,1,20), (1,1,20),
+			(1,1,20), (1,1,20), (1,1,20), (1,1,20), (1,1,20),
+
