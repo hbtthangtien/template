@@ -39,8 +39,8 @@ values ('Man Fashion','image\image_logo\image_logo_categories\man_fashion.jpg'),
 		('Toys','image\image_logo\image_logo_categories\Toys.jpg'),
 		('Houseware','image\image_logo\image_logo_categories\houseware.jpg'),
 		('Pets','image\image_logo\image_logo_categories\Pets.jpg'),
-		('Department store','image\image_logo\image_logo_categories'),
-		('Mom & Baby','image\image_logo\image_logo_categories'),
+		('Department store','image\image_logo\image_logo_categories\Department_Stores.jpg'),
+		('Mom & Baby','image\image_logo\image_logo_categories\Momandbaby.jpg'),
 		('Heath','image\image_logo\image_logo_categories\suckhoe.jpg'),
 		('Book','image\image_logo\image_logo_categories\sach.jpg'),
 		('phones and accessories','image\image_logo\image_logo_categories\dienthoai.jpg'),
@@ -3018,7 +3018,6 @@ Values('S'),
 		('Yellow-512GB'),
 		('Yellow-1TGB'),
 		('Over Size')
-
 INSERT INTO [dbo].[ProductType]
            ([product_id],[type_id], quantity)
      VALUES (1,1,20), (1,2,2), (1,3,20), (1,4,10), (1,5,20),
@@ -3028,4 +3027,3 @@ INSERT INTO [dbo].[ProductType]
 			(1,1,20), (1,1,20), (1,1,20), (1,1,20), (1,1,20),
 			(1,1,20), (1,1,20), (1,1,20), (1,1,20), (1,1,20),
 			(1,1,20), (1,1,20), (1,1,20), (1,1,20), (1,1,20),
-
