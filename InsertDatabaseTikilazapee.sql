@@ -207,8 +207,16 @@ values(1,'Jacket'),
 		(16,'Sport shoes'),
 		(16,'Sports & Outdoor Fashion');
 
-Insert into [Products](category_id, filter_id, brand_id, store_id, product_name, product_originPrice, product_percentSale, product_describes)
-values (3, 25, 18, 3, 'School Bag', 430000, 10,N'- Chất liệu: Vải Poly dù lạnh mềm mại chống thăm nước nhẹ nhàng
+INSERT INTO [dbo].[Products]
+           ([category_id]
+           ,[filter_id]
+           ,[brand_id]
+           ,[store_id]
+           ,[product_name]
+           ,[product_originPrice]
+           ,[product_percentSale]
+           ,[product_describes])
+		   VALUES (3, 25, 18, 3, 'School Bag', 430000, 10,N'- Chất liệu: Vải Poly dù lạnh mềm mại chống thăm nước nhẹ nhàng
 - Màu sắc: Đen, Be Trắng, Đỏ, Xanh
 - Kích thước: 45x30x14cm đựng được laptop lên đến 16inch
 - Công dụng: Mang đi học, du lịch, đi chơi,...
@@ -243,7 +251,7 @@ Khóa Kéo YKK: Zip khóa YKK tạo độ mượt, trượt khi kéo, giúp ngư
 + Tích hợp cổng sạc USB: Balo được thiết kế tích hợp cổng sạc USB để đáp ứng nhu cầu sạc pin cho các thiết bị di động như điện thoại, máy tính bảng, tai nghe không dây, v.v.
 
 + Quai đeo thoáng khí, kết cấu trợ lực.'),
-		(3, 25, 19, 3, 'Balo Haras', 700000, null, N' Chất liệu: Da PU Cao Cấp - Trượt nước
+		(3, 25, 19, 3, 'Balo Haras', 700000, 0, N' Chất liệu: Da PU Cao Cấp - Trượt nước
 - Hoạ tiết: thêu logo nổi
 - Size: 40cm X 30cm X 12cm
 - Ngăn chống sốc đựng vừa laptop 13inch, 14inch
@@ -297,7 +305,7 @@ Hướng dẫn sử dụng áo gió :
 • Họa tiết monogram đặc trưng của DirtyCoins được dệt trên vải.
 
 • Bo tay áo, bo cổ và bo thân được đánh rách nhẹ.'),
-		(1, 3, 18, 3, 'Sweater Not Bad', 230000, null, N'- Chất liệu: Nỉ da cá 380gsm
+		(1, 3, 18, 3, 'Sweater Not Bad', 230000, 0, N'- Chất liệu: Nỉ da cá 380gsm
 
 - Màu Sắc: Đen, Xám Nhạt, Hồng Đậm'),
 		(1, 3, 1, 4, 'Sweater Nike', 1200000, 30, N'- Sản phẩm: Áo Sweater Richky Premium Nỉ Nike Big Logo Mid
@@ -356,7 +364,7 @@ Hướng dẫn sử dụng áo gió :
 
 Vệ sinh cá nhân là một phần quan trọng đối với sức khỏe nam giới. Sự tích tụ của mồ hôi, bụi bẩn và vi khuẩn (vi trùng) ở vùng kín có thể gây ra viêm nhiễm do vi khuẩn hoặc nấm và dị ứng dẫn đến mùi hôi. Bọt vệ sinh nam giới Feelex Care Men loại bỏ nhanh chóng các yếu tố này, giữ độ ẩm cho vùng kín.
 Bọt vệ sinh nam giới là sản phẩm rửa sạch nhẹ nhàng và hiệu quả vùng kín nam giới, giúp loại bỏ mùi hôi và tăng cường độ ẩm cho vùng kín. Với dạng bọt tuyết tiện dụng không chỉ giúp cánh mày râu vệ sinh cậu nhỏ dễ dàng mà còn mang đến cảm giác mát nhẹ, hương thơm dễ chịu.'),
-		(6, 42, 23, 5, 'Cleanser Oxy ', 99000, null, N'
+		(6, 42, 23, 5, 'Cleanser Oxy ', 99000, 0, N'
 Da mụn trứng cá, Mọi loại da, Da hỗn hợp, Khô
 Chăm Sóc Da
 Mụn Trứng Cá/ Thâm, Mụn đầu đen, Se khít lỗ chân lông, Nám/ tàn nhang, Da dầu
@@ -369,9 +377,6 @@ Việt Nam
 Trọng lượng
 120g'),
 		(6, 43, 23, 5, 'shower gel Oxy',170000, 10, N'Sữa tắm, rửa mặt không xà phòng cho mọi loại da và da nhạy cảm 740ML
-
-
-
 Xuất xứ & sx tại: Pháp
 
 Dung tích: 740ml
@@ -426,18 +431,18 @@ Công dụng:
 - Làm da dịu đi và mềm mịn
 
 Hiệu quả sản phẩm phụ thuộc vào tình trạng da và cơ địa của mỗi người'),
-		(6, 44, 18, 5, 'Hair care essential oil', 109000, null, N'Hỗ trợ cải thiện mái tóc hư tổn
+		(6, 44, 18, 5, 'Hair care essential oil', 109000, 0, N'Hỗ trợ cải thiện mái tóc hư tổn
 - Giúp tóc bớt rụng nhiều
 - Hỗ trợ phục hồi và nuôi dưỡng mái tóc chắc khỏe 
 - Hạn chế tóc hư tổn trước những tác nhân gây hại
 * Dung tích 100ml'),
-		(6, 47, 18, 5, 'Shaving cream', 45000, null, N'Bộ sản phẩm gồm 02 Lưỡi cạo gồm 5 lưỡi nhỏ + 1
+		(6, 47, 18, 5, 'Shaving cream', 45000, 0, N'Bộ sản phẩm gồm 02 Lưỡi cạo gồm 5 lưỡi nhỏ + 1
 Lưỡi cạo với 5 lưỡi nhỏ sắc bén được sản xuất bằng thép không gỉ của Thuỵ Điển
 Đầu dao cạo có thanh cấp ẩm và con lăn giúp thao tác cạo râu dễ dàng hơn
 Dễ dàng tháo lắp, thay thế lưỡi cạo với phần chốt ở giữa phần chuôi cầm và lưỡi cạo
 Sản xuất tại nhà máy Mers Razor Solution
 '),
-		(6, 44, 18, 5,'Hair wax', 130000, null, N'Sáp, Wax vuốt tóc Sawensito Deluxe Hair Wax 100gr tạo kiểu giữ nếp cho tóc. HÀNG CHÍNH HÃNG
+		(6, 44, 18, 5,'Hair wax', 130000, 0, N'Sáp, Wax vuốt tóc Sawensito Deluxe Hair Wax 100gr tạo kiểu giữ nếp cho tóc. HÀNG CHÍNH HÃNG
 -Mùi thơm nam tính dễ chịu.
 -Chất sáp cứng phù hợp tóc cứng khó tạo nếp
 -Độ cứng: 5/5 - giữ nếp cả ngày
@@ -455,7 +460,7 @@ Thành phần chính nước dưỡng tóc pomelo cocoon:
 3. Long Durability: Carbon fiber fuel tank cover is very durable, weatherproof, resistant to high and low temperatures, and will not fade.
 4. Stylish Car Trim: Perfect for the oil tank cover, it changes the look of the car and adds a sporty and stylish look to the car.
 5. Easy Installation: Self adhesive design, just peel and stick, no need to modify. Easy to remove and clean without any residue.'),
-		(6, 45, 24, 5, 'Eye Water Proof', 49000, null,N' Không thấm nước và chống mồ hôi, hiệu ứng lâu trôi, không dễ phai màu, đều màu, lâu trôi và không bị nhòe.
+		(6, 45, 24, 5, 'Eye Water Proof', 49000, 0,N' Không thấm nước và chống mồ hôi, hiệu ứng lâu trôi, không dễ phai màu, đều màu, lâu trôi và không bị nhòe.
 
 * Màu sắc tự nhiên, nét cọ mịn và tinh tế, dễ kẻ, không gây tổn thương da.
 * Thiết kế bút hai đầu, một sản phẩm có 2 công dụng, đầu kẻ màu xiên 3D và cọ chải lông mày xoắn ốc. 
@@ -471,7 +476,7 @@ Thích hợp cho màu tóc: Tóc đen tự nhiên, tóc sẫm màu
 * Với bút kẻ lông mày hai đầu này, bạn sẽ tạm biệt những sợi lông mày đã lỗi thời, theo xu hướng thời trang theo hai hiệu ứng khác nhau. 
 * Bút kẻ lông mày ngòi dẹt để trang điểm tốt hơn. Màu sắc tự nhiên, sản phẩm thích hợp cho người mới bắt đầu, dễ kiểm soát độ dày nét kẻ, không cần mài bút, chỉ cần xoay nhẹ là sử dụng. 
 * Đầu cọ xoay bằng lông mềm và bền, không dễ bị biến dạng. Nếu chải lông mày nhẹ nhàng trước khi kẻ, lông mày sẽ trở nên đẹp sau khi trang điểm. ' ),
-		(6,45, 24, 5, 'Fixer Spray',99000 ,null, N'- Loại sản phẩm: xịt khoá nền sau khi trang điểm
+		(6,45, 24, 5, 'Fixer Spray',99000 ,0, N'- Loại sản phẩm: xịt khoá nền sau khi trang điểm
 
 - Xuất xứ: Nội địa Trung
 
@@ -627,11 +632,6 @@ Lưu ý:
 
 2. Vui lòng cho phép khác biệt kích thước nhỏ do biện pháp thủ công khác nhau'),
 (15, 109,18,6,'Y08 Headphone', 122000, 30, N' Thông tin chi tiết sản phẩm tai nghe chụp tai Y08
-
-
-
-
-
   .Hỗ trợ đọc thẻ TF, hỗ trợ gọi điện thoại rảnh tay.
 
   .Chip Bluetooth 5.0, hiệu suất cao, tiêu thụ điện năng thấp, nhanh hơn và ổn định hơn.
@@ -823,9 +823,6 @@ Màn hình rộng 6.67 inch với độ phân giải Full HD - Trải nghiệm g
 
 ★ Hỗ trợ công tắc đánh thức'),
 		(4, 28, 18, 8, 'T411 Console Game',30000, 15, N'Tay cầm chơi game HOSAN T4W  Kết nối có dây - Phụ kiện gaming cho PC thế hệ mới
-
-
-
 1. Tính năng tay cầm chơi game Gamesir T4W
 
 - Các nút bấm trên tay cầm chơi game mang lại cảm giác đi phím rất nhẹ, khá dính tay. Ngoài ra bề mặt sau của nắm tay được làm gân chống trơn trượt và mồ hôi tay. Mang lại cho người chơi cảm giác cầm nắm rất tuyệt vời.
@@ -1262,8 +1259,8 @@ In ảnh tràn viền lên tới cỡ 4R.'),
  ◾ Kích thước: 381 x 357 x 216 mm
 
  ◾ Trọng lượng: 8,56 kg'),
- (5, 37, 18, 8, 'H8 Pro Max Projector', 320000, 16, null, 12),
-		(5, 37, 18, 8, 'China Projector', 800000, 5, N'Bộ xử lý TV
+  (5, 37, 18, 8, 'H8 Pro Max Projector', 320000, 16, null),
+ (5, 37, 18, 8, 'China Projector', 800000, 5, N'Bộ xử lý TV
 Full HD
 Trọng lượng
 1kg
@@ -1293,7 +1290,7 @@ Remote AN-MR600 ANMR600 thay thế cho LG OLED TV LED HDTV
 
 Không cần lập trình hoặc ghép nối, chỉ cần lắp 2 pin kiềm mới vào là hoạt động được.
 Đây là thiết bị điều khiển từ xa IR thay thế mới.
-Chỉ có các chức năng cơ bản, KHÔNG có chức năng nhận dạng giọng nói. KHÔNG có chức năng của nút con trỏ (Bánh xe). Nhưng remote này hoạt động tốt cho TV.', 90),
+Chỉ có các chức năng cơ bản, KHÔNG có chức năng nhận dạng giọng nói. KHÔNG có chức năng của nút con trỏ (Bánh xe). Nhưng remote này hoạt động tốt cho TV.'),
 		(4, 32, 18, 8, 'CHUNGHOP Remote', 69000, 10, N'Remote điều khiển dành cho quạt Senko - 100% chính hãng
 
 
@@ -1334,7 +1331,7 @@ Sử dụng 2 pin AAA.
  MUA REMOTE MÁY LẠNH Ở ĐÂU ?
 
 (Ship COD toàn quốc)'),
-		(4, 32, 18, 8, 'Gate Remote', 45000, null, N'Remote M40M - sản phẩm chính hãng KDK
+		(4, 32, 18, 8, 'Gate Remote', 45000, 0, N'Remote M40M - sản phẩm chính hãng KDK
 Điều khiển với các nút bấm linh hoạt
 Sử dụng cho quạt treo tường KDK M40M'),
 		(4, 27, 30, 8, 'Xiaomi EA Pro Smart Tivi',10999999, 5, N'THÔNG SỐ KỸ THUẬT
@@ -2111,7 +2108,7 @@ Nâng cấp khả năng kết nối so với các phiên bản đi trước, k�
 
 -Gập gọn thông minh, dễ dàng mang đi theo mình. 
 '),
-		(5, 39, 18, 8, 'Screen PC',350000, null, N'Thương hiệu
+		(5, 39, 18, 8, 'Screen PC',350000, 0, N'Thương hiệu
 Xiaomi
 Kích thước màn hình
 23 -25 inch
@@ -2934,96 +2931,21 @@ VALUES(2, 5, 5, 'So Good'),
 		(7, 44,4, N'Tôi đã mua nó tôi cảm thấy bình thường'),
 		(9,44, 3,N'Tôi không thích chơi game nhưng tôi phải mua nó cho em trai tôi.');
 
-insert into [Types](type_describes)
-Values('S'),
+INSERT INTO [Types](type_describes)
+VALUES	('S'),
 		('M'),
 		('L'),
 		('XL'),
 		('XXL'),
-		('Black'),
-		('White'),
-		('Green'),
-		('Blue'),
-		('Purple'),
-		('Red'),
-		('Yellow'),
-		('S-Black'),
-		('M-Black'),
-		('L-Black'),
-		('XL-Black'),
-		('XXL-Black'),
-		('S-White'),
-		('M-White'),
-		('L-White'),
-		('XL-White'),
-		('XXL-White'),
-		('S-Green'),
-		('M-Green'),
-		('L-Green'),
-		('XL-Green'),
-		('XXL-Green'),
-		('S-Blue'),
-		('M-Blue'),
-		('L-Blue'),
-		('XL-Blue'),
-		('XXL-Blue'),
-		('S-Purple'),
-		('M-Purple'),
-		('L-Purple'),
-		('XL-Purple'),
-		('XXL-Purple'),
-		('S-Red'),
-		('M-Red'),
-		('L-Red'),
-		('XL-Red'),
-		('XXL-Red'),
-		('S-Yellow'),
-		('M-Yellow'),
-		('L-Yellow'),
-		('XL-Yellow'),
-		('XXL-Yellow'),
-		('Black-64GB'),
-		('Black-128GB'),
-		('Black-256GB'),
-		('Black-512GB'),
-		('Black-1TGB'),
-		('White-64GB'),
-		('White-128GB'),
-		('White-256GB'),
-		('White-512GB'),
-		('White-1TGB'),
-		('Green-64GB'),
-		('Green-128GB'),
-		('Green-256GB'),
-		('Green-512GB'),
-		('green-1TGB'),
-		('Blue-64GB'),
-		('Blue-128GB'),
-		('Blue-256GB'),
-		('Blue-512GB'),
-		('Blue-1TGB'),
-		('Purple-64GB'),
-		('Purple-128GB'),
-		('Purple-256GB'),
-		('Purple-512GB'),
-		('Purple-1TGB'),
-		('Red-64GB'),
-		('Red-128GB'),
-		('Red-256GB'),
-		('Red-512GB'),
-		('Red-1TGB'),
-		('Yellow-64GB'),
-		('Yellow-128GB'),
-		('Yellow-256GB'),
-		('Yellow-512GB'),
-		('Yellow-1TGB'),
-		('Over Size')
-INSERT INTO [dbo].[ProductType]
-           ([product_id],[type_id], quantity)
-     VALUES (1,1,20), (1,2,2), (1,3,20), (1,4,10), (1,5,20),
-			(2,1,20), (2,2,20), (2,3,20), (2,4,20), (2,5,20),
-			(1,1,20), (1,1,20), (1,1,20), (1,1,20), (1,1,20),
-			(1,1,20), (1,1,20), (1,1,20), (1,1,20), (1,1,20),
-			(1,1,20), (1,1,20), (1,1,20), (1,1,20), (1,1,20),
-			(1,1,20), (1,1,20), (1,1,20), (1,1,20), (1,1,20),
-			(1,1,20), (1,1,20), (1,1,20), (1,1,20), (1,1,20),
+		('64GB'),
+		('128GB'),
+		('256GB'),
+		('512GB'),
+		('1T'),
+		('Ren')
+
+INSERT INTO Color (color_name)
+VALUES ('Black'), ('Yellow'), ('Red'), ('Gold'), ('Purpel'),
+		('Grey'), ('White'), ('Brown'), ('Blue'), ('Green'),
+		('Pink')
+

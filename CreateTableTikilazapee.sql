@@ -184,7 +184,7 @@ CREATE TABLE CartItem
 )
 
 
-CREATE TABLE ProductType
+CREATE TABLE ProductTypeColor
 (
 	productType_id INT IDENTITY(1,1) PRIMARY KEY,
 	product_id INT CONSTRAINT fk_ProductType_product_id
