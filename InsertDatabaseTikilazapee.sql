@@ -2948,7 +2948,8 @@ VALUES	('S'),
 		('65ml'),
 		('200ml'),
 		('300ml'),
-		('500ml')
+		('500ml'),
+		('36'), ('37'), ('38'), ('39'), ('40'), ('41'), ('42'), ('43'), ('44'), ('45')
 
 INSERT INTO Color (color_name)
 VALUES ('Black'), ('Yellow'), ('Red'), ('Gold'), ('Purpel'),
