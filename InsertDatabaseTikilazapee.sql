@@ -2942,10 +2942,11 @@ VALUES	('S'),
 		('256GB'),
 		('512GB'),
 		('1T'),
-		('Ren')
+		('Ren'),
+		('Default')
 
 INSERT INTO Color (color_name)
 VALUES ('Black'), ('Yellow'), ('Red'), ('Gold'), ('Purpel'),
 		('Grey'), ('White'), ('Brown'), ('Blue'), ('Green'),
-		('Pink')
+		('Pink'), ('Default')
 
