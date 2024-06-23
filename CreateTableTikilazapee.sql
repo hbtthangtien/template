@@ -186,13 +186,17 @@ CREATE TABLE CartItem
 
 CREATE TABLE ProductTypeColor
 (
-	productType_id INT IDENTITY(1,1) PRIMARY KEY,
-	product_id INT CONSTRAINT fk_ProductType_product_id
-					FOREIGN KEY REFERENCES Products(product_id) ON DELETE CASCADE,
-	[type_id] INT CONSTRAINT fk_ProductType_type_id
-					FOREIGN KEY REFERENCES [Types]([type_id]) ON DELETE CASCADE,
-	[color_id] INT CONSTRAINT fk_ProductTypColor_color_id
-				FOREIGN KEY REFERENCES [Color] ([color_id]) ON DELETE CASCADE,
+	productTypeColor_id INT IDENTITY(1,1) PRIMARY KEY,
+	product_id INT,
+	[type_id] INT,
+	[color_id] INT,
+	UNIQUE(product_id,[type_id],[color_id]),
+	CONSTRAINT fk_ProductType_product_id
+					FOREIGN KEY(product_id) REFERENCES Products(product_id) ON DELETE CASCADE,
+	 CONSTRAINT fk_ProductType_type_id
+					FOREIGN KEY([type_id]) REFERENCES [Types]([type_id]) ON DELETE CASCADE,
+	 CONSTRAINT fk_ProductTypColor_color_id
+				FOREIGN KEY([color_id]) REFERENCES [Color] ([color_id]) ON DELETE CASCADE,
 	[quantity] INT
 )
 CREATE TABLE Wishlist
