@@ -193,9 +193,9 @@ CREATE TABLE ProductTypeColor
 	UNIQUE(product_id,[type_id],[color_id]),
 	CONSTRAINT fk_ProductType_product_id
 					FOREIGN KEY(product_id) REFERENCES Products(product_id) ON DELETE CASCADE,
-	 CONSTRAINT fk_ProductType_type_id
+	CONSTRAINT fk_ProductType_type_id
 					FOREIGN KEY([type_id]) REFERENCES [Types]([type_id]) ON DELETE CASCADE,
-	 CONSTRAINT fk_ProductTypColor_color_id
+	CONSTRAINT fk_ProductTypColor_color_id
 				FOREIGN KEY([color_id]) REFERENCES [Color] ([color_id]) ON DELETE CASCADE,
 	[quantity] INT
 )

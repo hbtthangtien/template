@@ -2943,7 +2943,12 @@ VALUES	('S'),
 		('512GB'),
 		('1T'),
 		('Ren'),
-		('Default')
+		('Default'),
+		('100ml'),
+		('65ml'),
+		('200ml'),
+		('300ml'),
+		('500ml')
 
 INSERT INTO Color (color_name)
 VALUES ('Black'), ('Yellow'), ('Red'), ('Gold'), ('Purpel'),
