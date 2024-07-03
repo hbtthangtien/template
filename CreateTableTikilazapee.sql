@@ -209,12 +209,11 @@ CREATE TABLE ProductTypeColor
 
 CREATE TABLE Wishlist
 (
-	wishlist_id INT IDENTITY PRIMARY KEY,
+	customer_id INT PRIMARY KEY,
 	product_id INT CONSTRAINT fk_ProductWishlist_product_id
 					FOREIGN KEY REFERENCES Products(product_id) ON DELETE CASCADE,
-	customer_id INT CONSTRAINT fk_Wishlist_user_id
-				FOREIGN KEY REFERENCES [Users]([user_id])
-	UNIQUE(product_id, customer_id)
+	CONSTRAINT fk_Wishlist_user_id FOREIGN KEY (customer_id) REFERENCES [Users]([user_id]),
+	UNIQUE(customer_id, product_id)
 )
 
 CREATE TABLE Blog

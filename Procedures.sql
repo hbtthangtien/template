@@ -27,6 +27,7 @@ BEGIN
 	DECLARE @X INT = (SELECT MAX(user_id) FROM Users)
 	INSERT INTO [dbo].[Account] ([user_id], [username], [password]) VALUES(@X,@username,@password)
 	INSERT INTO [dbo].ShoppingCart ([shoppingCart_id]) VALUES(@X)
+	INSERT INTO [dbo].Wishlist(Wishlist.customer_id) VALUES(@X)
 END
 GO
 
