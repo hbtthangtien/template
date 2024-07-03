@@ -29,6 +29,13 @@ CREATE TABLE Color
 	color_id INT IDENTITY(1,1) PRIMARY KEY,
 	color_name NVARCHAR(500)
 )
+CREATE TABLE Oauth_Account
+(
+	[user_id] INT NOT NULL PRIMARY KEY,
+	FOREIGN KEY ([user_id]) REFERENCES [Users]([user_id]),
+	[oauth_user_id]	NVARCHAR(500) UNIQUE,
+	[from] INT
+)
 CREATE TABLE Account
 (
 	[user_id] INT NOT NULL PRIMARY KEY,
@@ -199,6 +206,7 @@ CREATE TABLE ProductTypeColor
 				FOREIGN KEY([color_id]) REFERENCES [Color] ([color_id]) ON DELETE CASCADE,
 	[quantity] INT
 )
+
 CREATE TABLE Wishlist
 (
 	wishlist_id INT IDENTITY PRIMARY KEY,
@@ -206,4 +214,34 @@ CREATE TABLE Wishlist
 					FOREIGN KEY REFERENCES Products(product_id) ON DELETE CASCADE,
 	customer_id INT CONSTRAINT fk_Wishlist_user_id
 				FOREIGN KEY REFERENCES [Users]([user_id])
+	UNIQUE(product_id, customer_id)
+)
+
+CREATE TABLE Blog
+(
+	blog_id INT IDENTITY(1,1) PRIMARY KEY,
+	[user_id] INT FOREIGN KEY ([user_id]) REFERENCES [Users]([user_id]),
+	category_id INT CONSTRAINT fk_BlogCategories_category_id
+				FOREIGN KEY REFERENCES Categories(category_id) ON DELETE CASCADE,
+	blog_title NVARCHAR(500),
+	blog_content NVARCHAR(MAX),
+	blog_image NVARCHAR(300),
+	blog_create_day DATE DEFAULT(GETDATE())
+)
+
+CREATE TABLE Interaction_Blog
+(
+	interaction_blog_id INT IDENTITY(1,1) PRIMARY KEY,
+	[user_id] INT FOREIGN KEY ([user_id]) REFERENCES [Users]([user_id]),
+	blog_id INT CONSTRAINT fk_blog_id REFERENCES Blog(blog_id) ON DELETE CASCADE,
+	UNIQUE([user_id], blog_id),
+	blog_isReaction BIT,
+)
+
+CREATE TABLE Interaction_Blog_Comment
+(
+	comment_id INT IDENTITY(1,1) PRIMARY KEY,
+	interaction_blog_id INT REFERENCES Interaction_Blog(interaction_blog_id),
+	comment_create_day DATE DEFAULT(GETDATE()),
+	comment NVARCHAR(1500)
 )

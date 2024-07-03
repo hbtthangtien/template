@@ -47,5 +47,6 @@ BEGIN
 	DECLARE @q INT = (SELECT CartItem.quantityProduct FROM [CartItem] WHERE cartItem_id = @cartItem_id)
 	UPDATE CartItem
 	SET intoPrice = (@q * (SELECT CartItem.unitPrice FROM [CartItem] WHERE cartItem_id = @cartItem_id))
+	WHERE CartItem.cartItem_id = @cartItem_id
 END
 GO
