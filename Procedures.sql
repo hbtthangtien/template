@@ -51,3 +51,27 @@ BEGIN
 	WHERE CartItem.cartItem_id = @cartItem_id
 END
 GO
+
+
+CREATE PROCEDURE insert_into_User_OauthAccount 
+	-- Add the parameters for the stored procedure here
+	@fullname nvarchar(200),
+	@email nvarchar(200),
+	@oauth_user_id nvarchar(500),
+	@from int,
+	@image NVARCHAR(200)
+AS
+BEGIN
+	-- SET NOCOUNT ON added to prevent extra result sets from
+	-- interfering with SELECT statements.
+	SET NOCOUNT ON;
+	INSERT INTO [Users]([fullname], [email], [Image], [role_id]) VALUES(@fullname,@email,@image,3)
+	DECLARE @X INT = (SELECT MAX(user_id) FROM Users)
+	INSERT INTO [dbo].[Oauth_Account]([user_id], [oauth_user_id], [from])VALUES (@X,@oauth_user_id,@from)
+	INSERT INTO [dbo].[Account] ([user_id],[username], [Account].auth) VALUES(@X,@X,1)
+	INSERT INTO [dbo].ShoppingCart ([shoppingCart_id]) VALUES(@X)
+	INSERT INTO [dbo].Wishlist(Wishlist.customer_id) VALUES(@X)
+    -- Insert statements for procedure here
+
+END
+GO

@@ -33,14 +33,14 @@ CREATE TABLE Oauth_Account
 (
 	[user_id] INT NOT NULL PRIMARY KEY,
 	FOREIGN KEY ([user_id]) REFERENCES [Users]([user_id]),
-	[oauth_user_id]	NVARCHAR(500) UNIQUE,
+	[oauth_user_id]	NVARCHAR(500),
 	[from] INT
 )
 CREATE TABLE Account
 (
 	[user_id] INT NOT NULL PRIMARY KEY,
 	FOREIGN KEY ([user_id]) REFERENCES [Users]([user_id]),
-	[username] NVARCHAR(200) UNIQUE,
+	[username] NVARCHAR(200) NULL UNIQUE,
 	[password] NVARCHAR(500),
 	startDate DATE DEFAULT(GETDATE()),
 	auth BIT DEFAULT(0),
@@ -163,6 +163,7 @@ CREATE TABLE [OrderDetails]
 			FOREIGN KEY REFERENCES [Types]([type_id]) ON DELETE CASCADE,
 	[color_id] INT CONSTRAINT fk_OrderDetailsColor_color_id
 				FOREIGN KEY REFERENCES [Color] ([color_id]) ON DELETE CASCADE,
+	unitPrice INT,
 	quantityProduct INT,
 	intoPrice MONEY,
 	status_orderDetails INT DEFAULT(0)
