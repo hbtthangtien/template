@@ -68,7 +68,7 @@ BEGIN
 	INSERT INTO [Users]([fullname], [email], [Image], [role_id]) VALUES(@fullname,@email,@image,3)
 	DECLARE @X INT = (SELECT MAX(user_id) FROM Users)
 	INSERT INTO [dbo].[Oauth_Account]([user_id], [oauth_user_id], [from])VALUES (@X,@oauth_user_id,@from)
-	INSERT INTO [dbo].[Account] ([user_id],[username], [Account].auth) VALUES(@X,@X,1)
+
 	INSERT INTO [dbo].ShoppingCart ([shoppingCart_id]) VALUES(@X)
 	INSERT INTO [dbo].Wishlist(Wishlist.customer_id) VALUES(@X)
     -- Insert statements for procedure here
