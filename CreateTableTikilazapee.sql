@@ -149,7 +149,9 @@ CREATE TABLE [Orders]
 					FOREIGN KEY REFERENCES Stores(store_id),
 	order_totalPrice MONEY,
 	order_dateOrder DATE DEFAULT(GETDATE()),
-	order_status INT DEFAULT(0)
+	order_status INT DEFAULT(0), -- -1 declined, 0 Awaiting for confirm, 1 On shipping to you, 2 Success
+	order_payment_method INT, -- 0 Thanh toan khi nhan hang, 1 Thanh toan VNPAY
+	order_payment_status INT -- 0 Chua thanh toan, 1 Da thanh toan
 )
 
 CREATE TABLE [OrderDetails]
@@ -165,8 +167,7 @@ CREATE TABLE [OrderDetails]
 				FOREIGN KEY REFERENCES [Color] ([color_id]) ON DELETE CASCADE,
 	unitPrice INT,
 	quantityProduct INT,
-	intoPrice MONEY,
-	status_orderDetails INT DEFAULT(0)
+	intoPrice MONEY
 )
 
 CREATE TABLE ShoppingCart
