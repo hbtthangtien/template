@@ -142,7 +142,7 @@ CREATE TABLE [Types]
 CREATE TABLE [Orders]
 (
 	order_id INT IDENTITY(1,1) PRIMARY KEY,
-	order_title NVARCHAR(200) DEFAULT N'Hóa đơn thanh toán',
+	--order_title NVARCHAR(200) DEFAULT N'Hóa đơn thanh toán',
 	customer_id INT CONSTRAINT fk_OrdersCustomers_user_id
 				FOREIGN KEY REFERENCES [Users]([user_id]) ON DELETE CASCADE,
 	store_id INT CONSTRAINT fk_OrdersStores_store_id
@@ -241,7 +241,19 @@ CREATE TABLE Interaction_Blog
 CREATE TABLE Interaction_Blog_Comment
 (
 	comment_id INT IDENTITY(1,1) PRIMARY KEY,
+	blog_id INT CONSTRAINT fk_blog_id_comment REFERENCES Blog(blog_id) ON DELETE CASCADE,
 	interaction_blog_id INT REFERENCES Interaction_Blog(interaction_blog_id),
 	comment_create_day DATE DEFAULT(GETDATE()),
 	comment NVARCHAR(1500)
+)
+
+CREATE TABLE Payment
+(
+	payment_id INT IDENTITY(1,1) PRIMARY KEY,
+	[user_id] INT FOREIGN KEY ([user_id]) REFERENCES [Users]([user_id]),
+	[order_id] INT FOREIGN KEY ([order_id]) REFERENCES [Orders]([order_id]),
+	payment_amount MONEY,
+	payment_time NVARCHAR(200),
+	payment_bankCode NVARCHAR(30),
+	payment_status NVARCHAR(100)
 )
