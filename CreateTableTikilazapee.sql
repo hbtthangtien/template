@@ -149,9 +149,9 @@ CREATE TABLE [Orders]
 					FOREIGN KEY REFERENCES Stores(store_id),
 	order_totalPrice MONEY,
 	order_dateOrder DATE DEFAULT(GETDATE()),
-	order_status INT DEFAULT(0), -- -1 declined, 0 Awaiting for confirm, 1 On shipping to you, 2 Success
+	order_status INT DEFAULT(0), -- -2 cancel -1 declined, 0 Awaiting for confirm, 1 On shipping to you, 2 Success
 	order_payment_method INT, -- 0 Thanh toan khi nhan hang, 1 Thanh toan VNPAY
-	order_payment_status INT -- 0 Chua thanh toan, 1 Da thanh toan
+	order_payment_status INT DEFAULT(0) -- 0 Chua thanh toan, 1 Da thanh toan
 )
 
 CREATE TABLE [OrderDetails]
@@ -251,10 +251,11 @@ CREATE TABLE Interaction_Blog_Comment
 CREATE TABLE Payment
 (
 	payment_id INT IDENTITY(1,1) PRIMARY KEY,
-	[user_id] INT FOREIGN KEY ([user_id]) REFERENCES [Users]([user_id]),
-	[order_id] INT FOREIGN KEY ([order_id]) REFERENCES [Orders]([order_id]),
-	payment_amount MONEY,
-	payment_time NVARCHAR(200),
-	payment_bankCode NVARCHAR(30),
-	payment_status NVARCHAR(100)
+	vnp_Amount MONEY,
+	vnp_BankCode NVARCHAR(500),
+	vnp_BankTranNo NVARCHAR(500),
+	vnp_PayDate NVARCHAR(500),
+	vnp_OrderInfo NVARCHAR(500),
+	vnp_TransactionStatus NVARCHAR(500),
+	vnp_TxnRef NVARCHAR(500)
 )
