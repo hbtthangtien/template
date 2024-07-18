@@ -151,8 +151,7 @@ CREATE TABLE [Orders]
 	order_dateOrder DATE DEFAULT(GETDATE()),
 	order_status INT DEFAULT(0), -- -2 cancel -1 declined, 0 Awaiting for confirm, 1 Awaiting for prepare produt, 2 On shipping ,3 Success
 	order_payment_method INT, -- 0 Thanh toan khi nhan hang, 1 Thanh toan VNPAY
-	order_payment_status INT DEFAULT(0), -- 0 Chua thanh toan, 1 Da thanh toan
-	isFeedback BIT
+	order_payment_status INT DEFAULT(0) -- 0 Chua thanh toan, 1 Da thanh toan
 )
 
 CREATE TABLE [OrderDetails]
@@ -168,7 +167,8 @@ CREATE TABLE [OrderDetails]
 				FOREIGN KEY REFERENCES [Color] ([color_id]) ON DELETE CASCADE,
 	unitPrice INT,
 	quantityProduct INT,
-	intoPrice MONEY
+	intoPrice MONEY,
+	isFeedback BIT
 )
 
 CREATE TABLE ShoppingCart
