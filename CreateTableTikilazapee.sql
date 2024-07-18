@@ -168,7 +168,7 @@ CREATE TABLE [OrderDetails]
 	unitPrice INT,
 	quantityProduct INT,
 	intoPrice MONEY,
-	isFeedback BIT
+	isFeedback BIT DEFAULT(0)
 )
 
 CREATE TABLE ShoppingCart
