@@ -245,6 +245,7 @@ CREATE TABLE Interaction_Blog_Comment
 	comment_id INT IDENTITY(1,1) PRIMARY KEY,
 	blog_id INT CONSTRAINT fk_blog_id_comment REFERENCES Blog(blog_id) ON DELETE CASCADE,
 	interaction_blog_id INT REFERENCES Interaction_Blog(interaction_blog_id),
+	[user_id] INT FOREIGN KEY ([user_id]) REFERENCES [Users]([user_id]),
 	comment_create_day DATE DEFAULT(GETDATE()),
 	comment NVARCHAR(1500)
 )
