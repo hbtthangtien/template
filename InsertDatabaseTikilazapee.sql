@@ -91,99 +91,99 @@ values(3, 'Khanhdan_Unisex', '012345678', 'Ha Noi', null),
 insert into [Filters] ( [category_id], [nameFilter])
 values(1,'Jacket'),
 		(1, 'Vest and Blazer'),
-		(1, 'hoodie, sweater, Sweatshirts'),
-		(1, 'long pants, casual pants'),
-		(1, 'shirt'),
-		(1, 'three holes shirt'),
-		(1, 'underwear'),
-		(1, 'pajamas'),
-		(1,'fashion accessories'),
-		(2,'clothes'),
-		(2,'shirt'),
-		(2,'shorts'),
-		(2,'skirt'),
-		(2,'jeans'),
-		(2,'dress'),
-		(2,'hoodie, sweater, Sweatshirts'),
-		(2,'pajamas'),
-		(2, 'underwear'),
-		(2,'fashion accessories'),
-		(3,'Crossbody bag'),
-		(3,'Laptop bag'),
+		(1, 'Hoodie, Sweater, Sweatshirts'),
+		(1, 'Long Pants, Casual Pants'),
+		(1, 'Shirt'),
+		(1, 'Three Holes Shirt'),
+		(1, 'Underwear'),
+		(1, 'Pajamas'),
+		(1,'Fashion Accessories'),
+		(2,'Clothes'),
+		(2,'Shirt'),
+		(2,'Shorts'),
+		(2,'Skirt'),
+		(2,'Jeans'),
+		(2,'Dress'),
+		(2,'Hoodie, Sweater, Sweatshirts'),
+		(2,'Pajamas'),
+		(2, 'Underwear'),
+		(2,'Fashion Accessories'),
+		(3,'Crossbody Bag'),
+		(3,'Laptop Bag'),
 		(3,'Wallet'),
-		(3,'Waist bag'),
-		(3,'Office briefcase'),
-		(3,'Student backpack'),
-		(4,'loudspeaker'),
+		(3,'Waist Bag'),
+		(3,'Office Briefcase'),
+		(3,'Student Backpack'),
+		(4,'Loudspeaker'),
 		(4,'Television'),
 		(4,'Game Console'),
 		(4,'Fridge'),
-		(4,'Washing machine'),
+		(4,'Washing Machine'),
 		(4,'Headphones'),
 		(4,'Accessories'),
-		(4,'Microwave oven'),
+		(4,'Microwave Oven'),
 		(5,'Accessories'),
 		(5,'Laptop'),
 		(5,'PC'),
 		(5,'Projector'),
 		(5,'Printer'),
 		(5,'Screen'),
-		(5,'Network equipment'),
-		(5,'Storage device'),
-		(6,'Facial care'),
-		(6,'Body care'),
-		(6,'Hair care'),
-		(6,'Make up'),
-		(6,'Teeth cleaning'),
-		(6,'Men care'),
+		(5,'Network Equipment'),
+		(5,'Storage Device'),
+		(6,'Facial Care'),
+		(6,'Body Care'),
+		(6,'Hair Care'),
+		(6,'Make Up'),
+		(6,'Teeth Cleaning'),
+		(6,'Men Care'),
 		(6,'Perfume'),
-		(7,'Men shoes'),
-		(7,'Woman shoes'),
-		(7,'Sport shoes'),
-		(7,'High heels'),
+		(7,'Men Shoes'),
+		(7,'Woman Shoes'),
+		(7,'Sport Shoes'),
+		(7,'High Heels'),
 		(7,'Slippers'),
 		(7,'Accessories'),
-		(8,'Entertainment toys'),
-		(8,'Educational toys'),
-		(8,'Hobbies and collections'),
+		(8,'Entertainment Toys'),
+		(8,'Educational Toys'),
+		(8,'Hobbies And Collections'),
 		(8,'Doll'),
-		(8,'Stuffed animal'),
-		(9,'Blankets, sheets, pillows, mattresses'),
+		(8,'Stuffed Animal'),
+		(9,'Blankets, Sheets, Pillows, Mattresses'),
 		(9,'Furniture'),
-		(9,'Home decoration'),
-		(9,'Kitchen utensils'),
-		(9,'Utility tools and equipment'),
+		(9,'Home Decoration'),
+		(9,'Kitchen Utensils'),
+		(9,'Utility Tools And Equipment'),
 		(10,'Food'),
 		(10,'Accessory'),
 		(10,'Clothes'),
-		(10,'Take care of the pet'),
-		(10,'Pet hygiene'),
+		(10,'Take Care Of The Pet'),
+		(10,'Pet Hygiene'),
 		(11,'Snacks'),
-		(11,'Prepared food'),
-		(11,'Cooking ingredients'),
+		(11,'Prepared Food'),
+		(11,'Cooking Ingredients'),
 		(11,'Drinks'),
-		(11,'Acoholic drink'),
-		(11,'Fresh and frozen foods'),
+		(11,'Acoholic Drink'),
+		(11,'Fresh And Frozen Foods'),
 		(11,'Cake'),
-		(11,'Cereal - eggs'),
-		(12,'Travel items for babies'),
-		(12,'Weaning utensils for babies'),
-		(12,'Accessories for mothers'),
-		(12,'Bathroom supplies & Baby body care'),
-		(12,'Baby bedroom furniture'),
-		(12,'Baby food'),
-		(12,'Diapers & baby potties'),
-		(13,'Medical supplies'),
-		(13,'Anti-mosquito & repel insects'),
-		(13,'Functional foods'),
-		(13,'Sexual support'),
-		(13,'Adult diapers'),
-		(13,'Massage and therapy tools'),
-		(14,'Vietnamese book'),
-		(14,'Foreign literature books'),
+		(11,'Cereal - Eggs'),
+		(12,'Travel Items For Babies'),
+		(12,'Weaning Utensils For Babies'),
+		(12,'Accessories For Mothers'),
+		(12,'Bathroom Supplies & Baby Body Care'),
+		(12,'Baby Bedroom Furniture'),
+		(12,'Baby Food'),
+		(12,'Diapers & Baby Potties'),
+		(13,'Medical Supplies'),
+		(13,'Anti-Mosquito & Repel Insects'),
+		(13,'Functional Foods'),
+		(13,'Sexual Support'),
+		(13,'Adult Diapers'),
+		(13,'Massage And Therapy Tools'),
+		(14,'Vietnamese Book'),
+		(14,'Foreign Literature Books'),
 		(14,'Pen'),
-		(14,'Colors, Painting Tools and Crafts'),
-		(14,'Student & office supplies'),
+		(14,'Colors, Painting Tools And Crafts'),
+		(14,'Student & Office Supplies'),
 		(14,'Souvenir'),
 		(15,'Iphone 15 Series'),
 		(15,'Iphone 13 Series'),
@@ -191,20 +191,20 @@ values(1,'Jacket'),
 		(15,'Iphone 12 Series'),
 		(15,'Iphone 11 Series'),
 		(15,'Tablet'),
-		(15,'Battery backup'),
-		(15,'Cases, leather cases, phone stickers'),
-		(15,'Screen protector'),
-		(15,'Internal Battery, Cable and Charger'),
+		(15,'Battery Backup'),
+		(15,'Cases, Leather Cases, Phone Stickers'),
+		(15,'Screen Protector'),
+		(15,'Internal Battery, Cable And Charger'),
 		(15,'Memory Stick'),
 		(15,'Sim'),
 		(15,'Headphone'),
 		(15,  'Other Phones'),
-		(15,'Other accessories'),
+		(15,'Other Accessories'),
 		(16,'Vali'),
-		(16,'Travel bags'),
-		(16,'Travel accessories'),
+		(16,'Travel Bags'),
+		(16,'Travel Accessories'),
 		(16,'Sports & Outdoor Equipment'),
-		(16,'Sport shoes'),
+		(16,'Sport Shoes'),
 		(16,'Sports & Outdoor Fashion');
 
 INSERT INTO [dbo].[Products]
@@ -3132,74 +3132,74 @@ INSERT INTO [dbo].[Blog]
            ,[blog_content]
            ,[blog_image]
            ,[blog_create_day])
- VALUES
+     VALUES
            (3,2,N' Xu Hướng Thời Trang Nữ Nổi Bật Năm 2024',N'Xu Hướng Thời Trang Nữ Nổi Bật Năm 2024
 Năm 2024, thời trang nữ tiếp tục phát triển với sự pha trộn độc đáo giữa phong cách cổ điển và hiện đại. Các nhà thiết kế hàng đầu đã mang đến nhiều xu hướng mới, từ những bộ sưu tập cá tính đến trang phục thanh lịch và tinh tế. Hãy cùng khám phá những xu hướng thời trang nữ nổi bật nhất năm nay.
-
+<br>
 1. Sự Trở Lại Của Phong Cách Y2K
 Phong cách Y2K, biểu tượng của những năm 2000, đã quay trở lại mạnh mẽ trong năm 2024. Những chiếc áo crop top, quần jeans cạp trễ, và phụ kiện neon đầy màu sắc đang trở thành xu hướng thời trang chủ đạo. Phong cách này không chỉ mang lại sự trẻ trung, năng động mà còn giúp các cô gái tự tin thể hiện cá tính riêng.
-
+<br>
 2. Thời Trang Bền Vững
 Trong bối cảnh biến đổi khí hậu và nhận thức về bảo vệ môi trường ngày càng cao, thời trang bền vững trở thành một xu hướng không thể thiếu. Các nhà thiết kế và thương hiệu thời trang đang tập trung vào việc sử dụng các vật liệu tái chế, hữu cơ và quy trình sản xuất thân thiện với môi trường. Những bộ trang phục không chỉ đẹp mà còn mang thông điệp bảo vệ hành tinh.
-
+<br>
 3. Màu Sắc Tự Nhiên
 Màu sắc tự nhiên như xanh lá, nâu đất, và beige đang chiếm lĩnh các bộ sưu tập thời trang năm 2024. Những gam màu này mang lại cảm giác gần gũi với thiên nhiên, đồng thời dễ dàng kết hợp với nhiều phong cách khác nhau. Từ trang phục dạo phố đến các sự kiện sang trọng, màu sắc tự nhiên luôn là lựa chọn hoàn hảo.
-
+<br>
 4. Trang Phục Thể Thao Phong Cách
 Athleisure, phong cách thời trang kết hợp giữa trang phục thể thao và thời trang đường phố, tiếp tục làm mưa làm gió trong năm 2024. Những bộ đồ thể thao với thiết kế tinh tế, chất liệu co giãn, thoáng mát, không chỉ giúp bạn thoải mái khi vận động mà còn rất phong cách khi ra đường. Áo khoác bomber, quần legging, và giày sneaker là những item không thể thiếu.
-
+<br>
 5. Váy Maxi Thướt Tha
 Váy maxi, với độ dài chạm gót, là một trong những xu hướng không bao giờ lỗi mốt. Năm 2024, váy maxi với họa tiết hoa lá, chất liệu nhẹ nhàng như chiffon, lụa tiếp tục được ưa chuộng. Loại váy này mang đến vẻ ngoài nữ tính, thanh lịch và vô cùng thoải mái, phù hợp cho các buổi dạo phố, đi biển hay những bữa tiệc ngoài trời.
-
+<br>
 6. Phụ Kiện Độc Đáo
 Phụ kiện luôn là điểm nhấn hoàn hảo cho mọi bộ trang phục. Năm 2024, các phụ kiện độc đáo như kính mắt lớn, túi xách mini, và trang sức statement (những món trang sức lớn, nổi bật) sẽ giúp bạn thêm phần nổi bật. Đừng ngại thử nghiệm với những mẫu phụ kiện khác biệt để tạo nên phong cách riêng.
-
+<br>
 7. Trang Phục Layering
 Layering, nghệ thuật kết hợp nhiều lớp trang phục, đang trở nên phổ biến hơn bao giờ hết. Xu hướng này không chỉ giúp giữ ấm trong mùa đông mà còn tạo nên vẻ ngoài thời thượng, phong cách. Bạn có thể kết hợp áo len mỏng với áo khoác blazer, hoặc mix áo sơ mi với áo len cổ lọ để tạo nên những bộ trang phục ấn tượng.
-
+<br>
 Kết Luận
 Năm 2024, thời trang nữ không chỉ là sự pha trộn giữa các xu hướng cũ và mới mà còn thể hiện rõ nét cá tính của từng người. Hãy mạnh dạn thử nghiệm và khám phá những phong cách mới để luôn tự tin và tỏa sáng. Thời trang là ngôn ngữ không lời, hãy để phong cách của bạn kể câu chuyện riêng.','image/image_blog/blog_id4.jpg',
 '03/06/2024'),
 (3,1,N'Xu Hướng Thời Trang Nam Đáng Chú Ý Năm 2024',N'Năm 2024 đánh dấu sự chuyển mình mạnh mẽ của thời trang nam giới. Không chỉ dừng lại ở những bộ vest cổ điển hay những chiếc áo sơ mi cơ bản, thời trang nam năm nay là sự pha trộn tinh tế giữa phong cách hiện đại, thời thượng và nét đẹp cổ điển. Hãy cùng khám phá những xu hướng thời trang nam nổi bật nhất trong năm nay.
-
+<br>
 1. Phong Cách Thời Trang Retro
 Phong cách retro, với những trang phục lấy cảm hứng từ thập niên 70 và 80, đang trở lại mạnh mẽ. Những chiếc áo khoác bomber, quần ống rộng, và áo sơ mi hoa văn đều trở thành những item không thể thiếu trong tủ đồ của các chàng trai yêu thích sự cổ điển nhưng vẫn thời thượng. Màu sắc tươi sáng và họa tiết độc đáo của phong cách retro sẽ giúp các quý ông nổi bật trong mọi hoàn cảnh.
-
+<br>
 2. Áo Vest Thể Thao
 Áo vest thể thao là sự kết hợp hoàn hảo giữa phong cách thanh lịch và sự thoải mái. Năm 2024, các nhà thiết kế đã đưa áo vest thể thao lên một tầm cao mới với các chi tiết cắt may tinh xảo, chất liệu co giãn và thoáng khí. Bạn có thể dễ dàng kết hợp áo vest thể thao với quần jeans hoặc quần chinos để tạo nên vẻ ngoài lịch lãm nhưng không kém phần năng động.
-
+<br>
 3. Quần Cargo
 Quần cargo, với thiết kế nhiều túi và kiểu dáng rộng rãi, đang trở thành xu hướng thời trang nam nổi bật năm 2024. Quần cargo không chỉ mang lại sự tiện lợi mà còn tạo nên phong cách mạnh mẽ, nam tính. Bạn có thể phối quần cargo với áo thun đơn giản hoặc áo khoác bomber để có một bộ trang phục hoàn hảo cho những buổi dạo phố hoặc dã ngoại.
-
+<br>
 4. Màu Sắc Trung Tính
 Màu sắc trung tính như xám, nâu, và xanh navy luôn là lựa chọn an toàn và thanh lịch cho phái mạnh. Năm 2024, các gam màu này vẫn tiếp tục chiếm ưu thế trong các bộ sưu tập thời trang nam. Sự kết hợp giữa các màu sắc trung tính sẽ tạo nên vẻ ngoài trang nhã, lịch sự nhưng không kém phần hiện đại và phong cách.
-
+<br>
 5. Trang Phục Dệt Kim
 Trang phục dệt kim, từ áo len mỏng đến áo khoác cardigan, là xu hướng không thể bỏ qua trong năm 2024. Với sự ấm áp và mềm mại, trang phục dệt kim không chỉ mang lại sự thoải mái mà còn giúp các quý ông thêm phần phong cách. Bạn có thể kết hợp áo len dệt kim với quần jeans hoặc quần tây để tạo nên những bộ trang phục đa dạng, phù hợp cho cả công sở lẫn những buổi hẹn hò.
-
+<br>
 6. Phụ Kiện Đa Dụng
 Phụ kiện là yếu tố quan trọng để hoàn thiện bộ trang phục của phái mạnh. Năm 2024, các phụ kiện đa dụng như đồng hồ thông minh, túi đeo chéo, và mũ len trở nên phổ biến hơn bao giờ hết. Những món phụ kiện này không chỉ mang lại tiện ích mà còn là điểm nhấn hoàn hảo, giúp các chàng trai thêm phần lịch lãm và thời trang.
-
+<br>
 7. Giày Sneaker Cao Cấp
 Giày sneaker cao cấp tiếp tục là xu hướng hot trong năm 2024. Với thiết kế hiện đại, chất liệu cao cấp và màu sắc đa dạng, giày sneaker không chỉ dành riêng cho các hoạt động thể thao mà còn phù hợp với nhiều phong cách khác nhau. Bạn có thể diện giày sneaker với quần jeans, quần short hoặc thậm chí là quần tây để tạo nên vẻ ngoài trẻ trung, năng động và đầy phong cách.
-
+<br>
 Kết Luận
 Thời trang nam năm 2024 là sự kết hợp hoàn hảo giữa truyền thống và hiện đại, giữa sự thanh lịch và năng động. Hãy tự tin khám phá và thử nghiệm các xu hướng mới để luôn nổi bật và phong cách trong mọi hoàn cảnh. Thời trang không chỉ là cách ăn mặc mà còn là cách bạn thể hiện cá tính và gu thẩm mỹ của mình. Hãy để phong cách của bạn kể câu chuyện riêng trong năm 2024 này!','image/image_blog/blog_id5.jpg',
 '06/07/2024'),
 (4,3,N'Balo - Người Bạn Đồng Hành Không Thể Thiếu Trong Cuộc Sống Hiện Đại',N'Trong cuộc sống hiện đại, balo đã trở thành một phụ kiện không thể thiếu đối với mọi người. Từ học sinh, sinh viên, đến những người đi làm và du lịch, balo là người bạn đồng hành tiện lợi và thời trang. Hãy cùng khám phá vì sao balo lại quan trọng và những xu hướng balo nổi bật trong năm 2024.
-
+<br>
 1. Sự Tiện Lợi Của Balo
 Balo mang đến sự tiện lợi vượt trội khi so sánh với các loại túi xách khác. Với thiết kế có hai quai đeo, balo giúp phân bố đều trọng lượng trên hai vai, giảm thiểu áp lực và đau lưng khi mang. Ngoài ra, balo còn có nhiều ngăn lớn nhỏ, giúp bạn dễ dàng sắp xếp và tìm kiếm đồ dùng cá nhân một cách nhanh chóng và gọn gàng.
-
+<br>
 2. Balo Trong Môi Trường Học Đường
 Đối với học sinh, sinh viên, balo là vật dụng không thể thiếu. Với khả năng chứa được nhiều sách vở, laptop và các dụng cụ học tập, balo giúp các bạn trẻ dễ dàng di chuyển từ nhà đến trường. Những mẫu balo hiện đại còn được thiết kế với ngăn đựng laptop riêng biệt, chống sốc và chống thấm nước, bảo vệ tốt nhất cho các thiết bị điện tử.
-
+<br>
 3. Balo Thời Trang Công Sở
 Không chỉ dành cho học sinh, balo cũng là phụ kiện được nhiều người đi làm ưa chuộng. Các mẫu balo công sở thường có thiết kế đơn giản, thanh lịch và nhiều ngăn tiện lợi để đựng laptop, tài liệu và các vật dụng cá nhân. Chất liệu da cao cấp hoặc vải canvas bền bỉ là lựa chọn phổ biến cho những chiếc balo công sở, giúp tạo nên vẻ ngoài chuyên nghiệp và phong cách.
-
+<br>
 4. Balo Du Lịch
 Khi đi du lịch, balo là sự lựa chọn lý tưởng nhờ tính tiện lợi và đa năng. Các mẫu balo du lịch hiện nay được thiết kế với nhiều tính năng ưu việt như khả năng chống nước, chống sốc, nhiều ngăn chứa rộng rãi và quai đeo êm ái. Một chiếc balo du lịch chất lượng giúp bạn dễ dàng mang theo quần áo, vật dụng cá nhân và các thiết bị điện tử mà không lo bị hư hỏng hay mất mát.
-
+<br>
 5. Xu Hướng Balo Năm 2024
 Balo Thông Minh
 Năm 2024, balo thông minh với tích hợp cổng sạc USB, đèn LED và khóa số an toàn đang trở thành xu hướng. Những chiếc balo này không chỉ tiện lợi mà còn giúp người dùng an tâm hơn khi di chuyển, đặc biệt là trong những chuyến đi xa hay khi di chuyển trong thành phố.
@@ -3209,15 +3209,15 @@ Các mẫu balo thời trang với thiết kế hiện đại, màu sắc tươi
 
 Balo Thân Thiện Với Môi Trường
 Trong bối cảnh nhận thức về bảo vệ môi trường ngày càng cao, balo thân thiện với môi trường được làm từ các chất liệu tái chế và hữu cơ đang trở thành xu hướng. Những chiếc balo này không chỉ bền bỉ, đẹp mắt mà còn giúp giảm thiểu tác động tiêu cực đến môi trường.
-
+<br>
 Kết Luận
 Balo đã và đang trở thành một phần không thể thiếu trong cuộc sống hiện đại. Với sự tiện lợi, đa năng và thời trang, balo không chỉ giúp bạn dễ dàng mang theo các vật dụng cần thiết mà còn là phụ kiện thể hiện phong cách cá nhân. Hãy chọn cho mình một chiếc balo phù hợp để đồng hành cùng bạn trong mọi hành trình và công việc hàng ngày.','image/image_blog/blog_id6.jpg',
 '07/06/2024'),
 (3,4,N'Tay Cầm Chơi Game - Bí Quyết Để Trải Nghiệm Game Tuyệt Vời Hơn',N'Trong thế giới game, trải nghiệm chơi không chỉ phụ thuộc vào đồ họa, âm thanh, hay cốt truyện mà còn rất quan trọng bởi các thiết bị hỗ trợ. Một trong những phụ kiện không thể thiếu đối với các game thủ chính là tay cầm chơi game. Hãy cùng tìm hiểu tại sao tay cầm chơi game lại quan trọng và những xu hướng nổi bật của tay cầm trong năm 2024.
-
+<br>
 1. Tầm Quan Trọng Của Tay Cầm Chơi Game
 Tay cầm chơi game, hay còn gọi là gamepad, đóng vai trò then chốt trong việc nâng cao trải nghiệm chơi game. Với thiết kế tiện dụng, các nút bấm bố trí hợp lý và cảm giác cầm nắm thoải mái, tay cầm giúp game thủ dễ dàng điều khiển và thao tác nhân vật trong game một cách chính xác và nhanh chóng. Điều này đặc biệt quan trọng đối với các tựa game hành động, đối kháng, và thể thao, nơi mà mỗi pha di chuyển và phản xạ đều cần phải hoàn hảo.
-
+<br>
 2. Các Loại Tay Cầm Chơi Game Phổ Biến
 Tay Cầm Console
 Tay cầm dành cho các hệ máy console như PlayStation, Xbox và Nintendo Switch thường được thiết kế đặc biệt để tối ưu hóa cho từng hệ máy. Những tay cầm này không chỉ tích hợp đầy đủ các tính năng cơ bản mà còn có những công nghệ tiên tiến như cảm biến chuyển động, rung phản hồi và các nút bấm có thể tùy chỉnh, giúp mang đến trải nghiệm chơi game sống động và chân thực nhất.
@@ -3227,7 +3227,7 @@ Tay cầm chơi game dành cho PC cũng rất đa dạng và phong phú. Các m�
 
 Tay Cầm Không Dây
 Sự tiện lợi của tay cầm không dây là không thể phủ nhận. Với kết nối Bluetooth hoặc sóng RF, tay cầm không dây giúp game thủ có thể thoải mái chơi game mà không bị vướng víu bởi dây cáp. Nhiều mẫu tay cầm không dây hiện đại còn tích hợp pin sạc với thời lượng sử dụng lâu dài, giúp bạn chơi game thoải mái mà không lo hết pin giữa chừng.
-
+<br>
 3. Xu Hướng Tay Cầm Chơi Game Năm 2024
 Tay Cầm Tùy Chỉnh Cao
 Xu hướng nổi bật năm 2024 là những mẫu tay cầm cho phép người dùng tùy chỉnh cao độ. Từ việc thay đổi vị trí các nút bấm, độ nhạy của cần analog, đến việc thay đổi trọng lượng của tay cầm, tất cả đều giúp game thủ có thể cá nhân hóa thiết bị của mình để phù hợp nhất với phong cách chơi riêng.
@@ -3237,24 +3237,24 @@ Công nghệ tiên tiến như cảm biến lực, phản hồi rung đa chiều
 
 Tay Cầm Thân Thiện Với Môi Trường
 Trong xu hướng bảo vệ môi trường, nhiều hãng sản xuất đã chú trọng phát triển các mẫu tay cầm thân thiện với môi trường. Sử dụng các vật liệu tái chế và quy trình sản xuất bền vững, những tay cầm này không chỉ đạt chuẩn về chất lượng mà còn góp phần bảo vệ hành tinh xanh.
-
+<br>
 Kết Luận
 Tay cầm chơi game là một phụ kiện quan trọng giúp nâng cao trải nghiệm chơi game của bạn. Với sự đa dạng về loại hình, tính năng và xu hướng phát triển liên tục, việc lựa chọn một chiếc tay cầm phù hợp sẽ giúp bạn có những giây phút giải trí tuyệt vời và thú vị hơn. Hãy đầu tư vào một chiếc tay cầm chất lượng để trải nghiệm thế giới game một cách trọn vẹn nhất.','image/image_blog/blog_id7.jpg',
 '11/06/2024'),
 (3,5,N'Laptop - Người Bạn Đồng Hành Không Thể Thiếu Trong Thời Đại Số',N'Trong thời đại số hiện nay, laptop đã trở thành một phần không thể thiếu trong cuộc sống hàng ngày của chúng ta. Từ học tập, làm việc đến giải trí, laptop đóng vai trò quan trọng và mang lại nhiều tiện ích. Hãy cùng tìm hiểu vì sao laptop lại quan trọng và những xu hướng laptop nổi bật trong năm 2024.
-
+<br>
 1. Tầm Quan Trọng Của Laptop
 Laptop là một thiết bị điện tử đa năng, cho phép chúng ta thực hiện nhiều công việc khác nhau. Với kích thước nhỏ gọn, tính di động cao và khả năng kết nối internet, laptop mang lại sự tiện lợi vượt trội so với các thiết bị cố định như máy tính bàn. Dù bạn đang ở nhà, văn phòng, quán cà phê hay trên chuyến bay, laptop vẫn luôn sẵn sàng phục vụ bạn.
-
+<br>
 2. Laptop Trong Học Tập
 Đối với học sinh, sinh viên, laptop là công cụ hỗ trợ đắc lực trong việc học tập. Với khả năng truy cập tài liệu học tập trực tuyến, tham gia các khóa học online và làm bài tập, laptop giúp việc học trở nên dễ dàng và hiệu quả hơn. Nhiều trường học và đại học hiện nay cũng đã tích hợp công nghệ vào giảng dạy, khiến laptop trở thành vật dụng không thể thiếu đối với mỗi học sinh, sinh viên.
-
+<br>
 3. Laptop Trong Công Việc
 Laptop không chỉ là công cụ hỗ trợ học tập mà còn là người bạn đồng hành quan trọng trong công việc. Với các phần mềm văn phòng như Microsoft Office, Google Workspace và khả năng kết nối với các công cụ làm việc trực tuyến, laptop giúp tăng năng suất làm việc và hỗ trợ quản lý công việc hiệu quả. Đặc biệt, trong bối cảnh làm việc từ xa ngày càng phổ biến, laptop trở thành thiết bị quan trọng giúp duy trì sự liên lạc và cộng tác giữa các thành viên trong nhóm.
-
+<br>
 4. Laptop Trong Giải Trí
 Không chỉ hỗ trợ học tập và công việc, laptop còn là thiết bị giải trí tuyệt vời. Với khả năng phát video chất lượng cao, chơi game, nghe nhạc và lướt web, laptop mang lại những giây phút thư giãn thoải mái. Các dòng laptop gaming với cấu hình mạnh mẽ, màn hình sắc nét và hệ thống âm thanh chất lượng cao đang trở thành lựa chọn yêu thích của nhiều game thủ.
-
+<br>
 5. Xu Hướng Laptop Năm 2024
 Laptop Mỏng Nhẹ
 Xu hướng laptop mỏng nhẹ tiếp tục chiếm ưu thế trong năm 2024. Các nhà sản xuất không ngừng cải tiến thiết kế để tạo ra những chiếc laptop nhẹ hơn, mỏng hơn nhưng vẫn mạnh mẽ và bền bỉ. Với tính di động cao, những chiếc laptop mỏng nhẹ giúp người dùng dễ dàng mang theo mọi lúc, mọi nơi.
@@ -3267,17 +3267,17 @@ Laptop gaming với cấu hình mạnh mẽ, thiết kế hầm hố và các t�
 
 Laptop Thân Thiện Với Môi Trường
 Trong xu hướng bảo vệ môi trường, nhiều hãng sản xuất laptop đã chú trọng phát triển các dòng sản phẩm thân thiện với môi trường. Sử dụng các vật liệu tái chế, quy trình sản xuất bền vững và thiết kế tiết kiệm năng lượng, những chiếc laptop này không chỉ đáp ứng nhu cầu sử dụng mà còn góp phần bảo vệ hành tinh xanh.
-
+<br>
 Kết Luận
 Laptop đã và đang trở thành một phần không thể thiếu trong cuộc sống hiện đại. Với sự đa dạng về loại hình, tính năng và xu hướng phát triển liên tục, việc lựa chọn một chiếc laptop phù hợp sẽ giúp bạn nâng cao hiệu quả học tập, công việc và giải trí. Hãy đầu tư vào một chiếc laptop chất lượng để tận hưởng những tiện ích và trải nghiệm tuyệt vời mà công nghệ mang lại.','image/image_blog/blog_id8.jpg',
 '11/06/2024'),
 (5,6,N'Sáp Vuốt Tóc - Bí Quyết Tạo Kiểu Hoàn Hảo Cho Mái Tóc Của Bạn',N'Trong thời trang và làm đẹp, mái tóc luôn đóng vai trò quan trọng trong việc thể hiện phong cách và cá tính của mỗi người. Để có được mái tóc hoàn hảo, không chỉ cần chăm sóc tóc mà còn phải biết cách tạo kiểu. Sáp vuốt tóc là một trong những sản phẩm tạo kiểu tóc được ưa chuộng nhất hiện nay. Hãy cùng tìm hiểu vì sao sáp vuốt tóc lại được yêu thích và những xu hướng sáp vuốt tóc nổi bật trong năm 2024.
-
+<br>
 1. Tại Sao Nên Sử Dụng Sáp Vuốt Tóc?
 Sáp vuốt tóc mang lại nhiều ưu điểm vượt trội so với các sản phẩm tạo kiểu khác. Với khả năng giữ nếp mạnh mẽ, sáp vuốt tóc giúp bạn duy trì kiểu tóc suốt cả ngày dài mà không lo bị xẹp hay mất form. Bên cạnh đó, sáp vuốt tóc còn giúp tạo độ phồng tự nhiên, mang lại vẻ ngoài bồng bềnh và đầy sức sống cho mái tóc.
 
 Sáp vuốt tóc thường có kết cấu dạng kem hoặc sáp mềm, dễ dàng thoa đều lên tóc mà không gây bết dính hay nhờn rít. Điều này giúp bạn dễ dàng tạo kiểu tóc theo ý muốn mà không lo làm hỏng cấu trúc tóc. Đặc biệt, sáp vuốt tóc thích hợp cho mọi loại tóc, từ tóc dày đến tóc mỏng, từ tóc ngắn đến tóc dài.
-
+<br>
 2. Các Loại Sáp Vuốt Tóc Phổ Biến
 Sáp Vuốt Tóc Mờ (Matte Wax)
 Sáp vuốt tóc mờ là lựa chọn hoàn hảo cho những ai muốn có kiểu tóc tự nhiên mà không bóng. Sản phẩm này giúp tạo kiểu tóc mềm mại, dễ dàng điều chỉnh và giữ nếp lâu. Sáp vuốt tóc mờ thích hợp cho các kiểu tóc hiện đại như undercut, pompadour, hay tóc xù.
@@ -3287,7 +3287,7 @@ Sáp vuốt tóc bóng mang lại độ bóng và sáng cho mái tóc, giúp b�
 
 Sáp Vuốt Tóc Giữ Nếp Cực Mạnh (Strong Hold Wax)
 Sáp vuốt tóc giữ nếp cực mạnh là lựa chọn lý tưởng cho những ai muốn kiểu tóc giữ nếp suốt cả ngày dài, ngay cả trong điều kiện thời tiết khắc nghiệt. Sản phẩm này thích hợp cho các kiểu tóc đòi hỏi độ chính xác cao như mohawk, quiff, hay các kiểu tóc tạo hình nghệ thuật.
-
+<br>
 3. Xu Hướng Sáp Vuốt Tóc Năm 2024
 Sáp Vuốt Tóc Hữu Cơ
 Xu hướng sử dụng sản phẩm hữu cơ và thân thiện với môi trường đang ngày càng phổ biến. Các loại sáp vuốt tóc hữu cơ được làm từ các thành phần tự nhiên, không chứa hóa chất độc hại, giúp bảo vệ sức khỏe của người dùng và môi trường. Sáp vuốt tóc hữu cơ không chỉ an toàn mà còn mang lại hiệu quả tuyệt vời trong việc tạo kiểu và chăm sóc tóc.
@@ -3297,20 +3297,21 @@ Sáp vuốt tóc đa năng với khả năng vừa tạo kiểu, vừa dưỡng 
 
 Sáp Vuốt Tóc Dành Riêng Cho Nam Giới
 Sáp vuốt tóc dành riêng cho nam giới được thiết kế đặc biệt để phù hợp với cấu trúc tóc và nhu cầu tạo kiểu của phái mạnh. Các sản phẩm này thường có mùi hương nam tính, dễ sử dụng và mang lại hiệu quả giữ nếp mạnh mẽ. Sáp vuốt tóc dành riêng cho nam giới giúp các quý ông tự tin và lịch lãm hơn trong mọi hoàn cảnh.
-
+<br>
 4. Cách Sử Dụng Sáp Vuốt Tóc Hiệu Quả
 Bước 1: Lấy một lượng sáp vừa đủ và xoa đều lên lòng bàn tay để làm mềm sáp.
 Bước 2: Thoa đều sáp lên tóc, tập trung vào phần ngọn tóc và vùng cần tạo kiểu.
 Bước 3: Dùng tay hoặc lược để tạo kiểu tóc theo ý muốn. Bạn có thể dùng máy sấy để tăng độ phồng và giữ nếp cho tóc.
 Bước 4: Kiểm tra và chỉnh sửa lại kiểu tóc nếu cần thiết. Bạn có thể thêm một chút sáp để đảm bảo kiểu tóc giữ nếp suốt cả ngày.
+<br>
 Kết Luận
 Sáp vuốt tóc là sản phẩm không thể thiếu trong bộ sưu tập làm đẹp của mỗi người. Với khả năng tạo kiểu và giữ nếp hiệu quả, sáp vuốt tóc giúp bạn có được mái tóc hoàn hảo và tự tin trong mọi hoàn cảnh. Hãy lựa chọn cho mình loại sáp vuốt tóc phù hợp và áp dụng các xu hướng mới nhất để luôn nổi bật và phong cách.','image/image_blog/blog_id9.jpg',
 '07/05/2024'),
 (3,7,N'Giày - Bí Quyết Chọn Lựa và Xu Hướng Thời Trang 2024',N'Giày không chỉ là một phụ kiện thời trang mà còn là biểu tượng của phong cách và cá tính. Từ giày thể thao, giày công sở đến giày dạo phố, mỗi đôi giày đều kể một câu chuyện riêng về người mang nó. Hãy cùng khám phá cách chọn giày phù hợp và những xu hướng giày nổi bật trong năm 2024.
-
+<br>
 1. Tầm Quan Trọng Của Giày
 Giày đóng vai trò quan trọng trong việc bảo vệ và hỗ trợ đôi chân. Một đôi giày phù hợp không chỉ mang lại sự thoải mái mà còn giúp bạn tự tin hơn trong từng bước đi. Đặc biệt, giày còn là điểm nhấn quan trọng trong trang phục, giúp bạn hoàn thiện phong cách và thể hiện cá tính.
-
+<br>
 2. Cách Chọn Giày Phù Hợp
 Hiểu Rõ Kích Cỡ Chân
 Mỗi người có hình dạng và kích thước chân khác nhau. Việc chọn giày đúng kích cỡ là yếu tố quan trọng nhất để đảm bảo sự thoải mái. Hãy đo chân vào buổi chiều, khi chân bạn nở ra sau một ngày dài hoạt động, để có số đo chính xác nhất.
@@ -3320,7 +3321,7 @@ Mỗi loại giày được thiết kế để phù hợp với các hoạt đ�
 
 Kiểm Tra Chất Liệu
 Chất liệu giày ảnh hưởng đến độ bền, sự thoải mái và cả vẻ ngoài của đôi giày. Chọn giày làm từ chất liệu da thật, vải canvas hoặc các loại chất liệu tổng hợp cao cấp để đảm bảo độ bền và sự thoải mái khi mang.
-
+<br>
 3. Các Loại Giày Phổ Biến
 Giày Thể Thao (Sneakers)
 Giày thể thao luôn là lựa chọn yêu thích của nhiều người nhờ tính tiện dụng và phong cách năng động. Từ các thương hiệu nổi tiếng như Nike, Adidas đến các dòng giày local brand, giày thể thao không chỉ dành cho việc luyện tập thể thao mà còn là phụ kiện thời trang phổ biến.
@@ -3330,7 +3331,7 @@ Giày công sở bao gồm các loại giày như Oxford, Derby và Loafers. Đ�
 
 Giày Dạo Phố (Casual Shoes)
 Giày dạo phố mang lại sự thoải mái và phong cách cho những buổi đi chơi, gặp gỡ bạn bè hay dạo phố. Các loại giày như loafers, boat shoes, espadrilles và giày lười là những lựa chọn phổ biến cho phong cách dạo phố.
-
+<br>
 4. Xu Hướng Giày Năm 2024
 Giày Thể Thao Thông Minh
 Năm 2024, giày thể thao thông minh với các công nghệ tiên tiến như theo dõi bước đi, đo nhịp tim và tích hợp GPS đang trở thành xu hướng. Những đôi giày này không chỉ giúp bạn luyện tập hiệu quả hơn mà còn mang lại sự tiện lợi và hiện đại trong cuộc sống hàng ngày.
@@ -3343,15 +3344,15 @@ Giày chunky với thiết kế đế dày, to bản và phong cách nổi bật
 
 Giày Vintage
 Phong cách vintage luôn có sức hút đặc biệt và năm 2024 không phải là ngoại lệ. Giày vintage với thiết kế cổ điển, chất liệu da thật và chi tiết tinh xảo mang lại vẻ ngoài sang trọng và quý phái. Đây là lựa chọn hoàn hảo cho những ai yêu thích sự hoài cổ và độc đáo.
-
+<br>
 Kết Luận
 Giày là phụ kiện không thể thiếu trong cuộc sống hiện đại. Việc chọn giày phù hợp không chỉ giúp bảo vệ đôi chân mà còn thể hiện phong cách và cá tính của bạn. Hãy cập nhật những xu hướng giày mới nhất và chọn cho mình những đôi giày ưng ý để luôn tự tin và phong cách trong mọi hoàn cảnh.','image/image_blog/blog_id10.jpg',
 '05/02/2024'),
 (4,8,N'Tai Nghe - Chìa Khóa Đến Thế Giới Âm Thanh Tuyệt Vời',N'Trong thế giới công nghệ hiện đại, tai nghe đã trở thành một phần không thể thiếu trong cuộc sống hàng ngày của chúng ta. Từ việc nghe nhạc, xem phim, tham gia các cuộc họp trực tuyến đến chơi game, tai nghe mang lại trải nghiệm âm thanh chất lượng và sự tiện lợi vượt trội. Hãy cùng khám phá vì sao tai nghe lại quan trọng và những xu hướng tai nghe nổi bật trong năm 2024.
-
+<br>
 1. Tầm Quan Trọng Của Tai Nghe
 Tai nghe không chỉ giúp bạn thưởng thức âm nhạc và giải trí mà còn mang lại sự riêng tư và tập trung. Trong môi trường làm việc mở, tai nghe giúp bạn tách biệt khỏi tiếng ồn xung quanh và tập trung vào công việc. Khi di chuyển, tai nghe giúp bạn thư giãn và tận hưởng những bản nhạc yêu thích mà không làm phiền người khác. Đặc biệt, với sự phát triển của công nghệ âm thanh, tai nghe ngày càng mang lại chất lượng âm thanh cao cấp, giúp bạn trải nghiệm âm nhạc và âm thanh một cách chân thực và sống động.
-
+<br>
 2. Các Loại Tai Nghe Phổ Biến
 Tai Nghe In-Ear
 Tai nghe in-ear hay còn gọi là tai nghe nhét tai, là loại tai nghe nhỏ gọn và tiện lợi. Với thiết kế đặt vào trong ống tai, tai nghe in-ear mang lại chất lượng âm thanh tốt và khả năng cách âm cao. Đây là lựa chọn lý tưởng cho những ai yêu thích sự nhỏ gọn và tiện dụng, dễ dàng mang theo khi di chuyển.
@@ -3361,7 +3362,7 @@ Tai nghe on-ear là loại tai nghe có đệm tai nằm trên vành tai. Với 
 
 Tai Nghe Over-Ear
 Tai nghe over-ear, hay còn gọi là tai nghe chụp tai, có đệm tai bao phủ toàn bộ tai. Với thiết kế lớn và đệm tai êm ái, tai nghe over-ear mang lại chất lượng âm thanh vượt trội và khả năng cách âm tốt. Đây là lựa chọn hoàn hảo cho những ai yêu thích chất lượng âm thanh cao cấp và sự thoải mái tối đa.
-
+<br>
 3. Xu Hướng Tai Nghe Năm 2024
 Tai Nghe Không Dây (Wireless Headphones)
 Tai nghe không dây tiếp tục là xu hướng hot trong năm 2024. Với kết nối Bluetooth ổn định và pin dung lượng lớn, tai nghe không dây mang lại sự tiện lợi tối đa, giúp bạn dễ dàng di chuyển mà không lo bị vướng víu bởi dây cáp. Các dòng tai nghe không dây cao cấp còn tích hợp các công nghệ hiện đại như chống ồn chủ động, điều khiển cảm ứng và hỗ trợ trợ lý ảo.
@@ -3374,7 +3375,7 @@ Tai nghe gaming được thiết kế đặc biệt để tối ưu hóa trải 
 
 Tai Nghe Thông Minh
 Tai nghe thông minh với các tính năng như theo dõi sức khỏe, tích hợp trợ lý ảo và khả năng điều chỉnh âm thanh tự động đang trở thành xu hướng nổi bật. Những chiếc tai nghe này không chỉ mang lại trải nghiệm âm nhạc tuyệt vời mà còn hỗ trợ các hoạt động hàng ngày, giúp cuộc sống của bạn tiện lợi và hiện đại hơn.
-
+<br>
 4. Cách Chọn Tai Nghe Phù Hợp
 Xác Định Nhu Cầu Sử Dụng
 Trước khi chọn mua tai nghe, bạn cần xác định rõ nhu cầu sử dụng của mình. Nếu bạn thường xuyên di chuyển, tai nghe in-ear hoặc on-ear không dây sẽ là lựa chọn phù hợp. Nếu bạn cần tập trung làm việc trong môi trường ồn ào, tai nghe over-ear chống ồn chủ động sẽ là lựa chọn lý tưởng.
@@ -3384,49 +3385,85 @@ Chất lượng âm thanh là yếu tố quan trọng nhất khi chọn tai nghe
 
 Chọn Thương Hiệu Uy Tín
 Chọn mua tai nghe từ các thương hiệu uy tín sẽ đảm bảo chất lượng sản phẩm và dịch vụ hậu mãi tốt. Các thương hiệu như Sony, Bose, Sennheiser, Apple, và JBL đều có các dòng tai nghe chất lượng và đa dạng, phù hợp với nhiều nhu cầu sử dụng.
-
+<br>
 Kết Luận
 Tai nghe là thiết bị quan trọng giúp bạn tận hưởng âm nhạc và âm thanh một cách trọn vẹn. Với sự phát triển không ngừng của công nghệ, tai nghe ngày càng trở nên đa dạng và hiện đại hơn, mang lại nhiều lựa chọn phong phú cho người dùng. Hãy chọn cho mình một chiếc tai nghe phù hợp để trải nghiệm thế giới âm thanh tuyệt vời và tận hưởng những giây phút thư giãn, giải trí thật trọn vẹn.
 
 ','image/image_blog/blog_id11.jpg',
 '03/07/2024')
 
+INSERT INTO [dbo].[Interaction_Blog]
+           ([user_id]
+           ,[blog_id]
+           ,[blog_isReaction])
+     VALUES
+           	
+	(4,	2,	1),
+	(3,	2,	1),
+	(5,	2,	1),
+	(6,	2,	1),
+	(4,	3,	1),
+	(3,	3,	1),
+	(5,	3,	1),
+	(6,	3,	1),
+	(7,	3,	1),
+	(4,	4,	1),
+	(3,	4,	1),
+	(5,	4,	1),
+	(6,	4,	1),
+	(4,	5,	1),
+	(3,	5,	1),
+	(5,	5,	1),
+	(6,	5,	1),
+	(7,	5,	1),
+	(4,	6,	1),
+	(3,	6,	1),
+	(5,	6,	1),
+	(6,	6,	1),
+	(4,	7,	1),
+	(3,	7,	1),
+	(5,	7,	1),
+	(6,7,	1),
+	(7,	7,	1),
+	(4,	8,	1),
+	(3,	8,	1),
+	(5,8,	1),
+	(6,	8,	1)
 INSERT INTO [dbo].[Interaction_Blog_Comment]
            ([blog_id]
            ,[interaction_blog_id]
            ,[comment_create_day]
            ,[comment])
      VALUES
-           (13
+           (2
            ,2
            ,'10/07/2024'
            ,N'Bài viết thật bổ ích tôi đã học được vài thứ từ nó . Cảm ơn vì đã đăng bài viết có ích này lên .'),
-		   (13
+		   (2
            ,3
            ,'09/07/2024'
            ,N'Tôi rất ấn tượng với cách bạn phân tích và giải thích vấn đề. Điều này giúp tôi hiểu sâu hơn về chủ đề'),
-		   (13
+		   (2
            ,4
            ,'08/07/2024'
            ,N'Bài viết rất chi tiết và dễ hiểu. Cách bạn trình bày rất hấp dẫn và logic'),
-		   (13
+		   (2
            ,5
            ,'07/07/2024'
            ,N'Tôi rất mong đợi các bài viết tiếp theo của bạn về chủ đề này. Bạn có thể nghiên cứu sâu hơn về một số khía cạnh khác?'),
-		    (14
+		    (3
            ,6
            ,'07/07/2024'
            ,N'Xin cảm ơn bạn đã dành thời gian và công sức để viết bài viết này. Đây là một nguồn thông tin quý giá.'),
-		    (14
+		    (3
            ,7
            ,'07/07/2024'
            ,N'Tôi rất ấn tượng với cách bạn phân tích và giải thích vấn đề. Điều này giúp tôi hiểu sâu hơn về chủ đề.'),
-		    (14
+		    (3
            ,8
            ,'07/07/2024'
            ,N'Cảm ơn bạn đã chia sẻ thông tin hữu ích này. Tôi đã học được rất nhiều điều mới từ bài viết của bạn.'),
-		    (14
+		    (3
            ,9
            ,'07/07/2024'
            ,N'Tôi có một câu hỏi liên quan đến nội dung này. Bạn có thể giải thích thêm về điều này không?')
-
