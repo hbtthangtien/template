@@ -260,4 +260,5 @@ CREATE TABLE Payment
 	vnp_OrderInfo NVARCHAR(500),
 	vnp_TransactionStatus NVARCHAR(500),
 	vnp_TxnRef NVARCHAR(500)	
+
 )
