@@ -30,7 +30,7 @@ CREATE TABLE Color
 	color_name NVARCHAR(500)
 )
 CREATE TABLE Oauth_Account
-(
+(	
 	[user_id] INT NOT NULL PRIMARY KEY,
 	FOREIGN KEY ([user_id]) REFERENCES [Users]([user_id]),
 	[oauth_user_id]	NVARCHAR(500),
@@ -101,7 +101,8 @@ CREATE TABLE Products
 	product_originPrice MONEY,
 	product_percentSale INT DEFAULT(0),
 	product_importDate DATE DEFAULT(GETDATE()),
-	product_describes NVARCHAR(MAX)
+	product_describes NVARCHAR(MAX),
+	isActive BIT DEFAULT(0) -- 0 - not accept by admin; 1 -- accepted by admin
 )
 
 CREATE TABLE ImageProducts
@@ -122,7 +123,7 @@ CREATE TABLE Feedbacks
 	feedback_rateStars INT DEFAULT(0),
 	feedback_comment NVARCHAR(MAX),
 	feedback_commentDate DATE DEFAULT(GETDATE()),
-	feedback_modifed DATE
+	feedback_modifed	 DATE
 )
 
 CREATE TABLE ImageFeedbacks
@@ -148,7 +149,7 @@ CREATE TABLE [Orders]
 	store_id INT CONSTRAINT fk_OrdersStores_store_id
 					FOREIGN KEY REFERENCES Stores(store_id),
 	order_totalPrice MONEY,
-	order_dateOrder DATE DEFAULT(GETDATE()),
+	order_dateOrder DATETIME DEFAULT(GETDATE()),
 	order_status INT DEFAULT(0), -- -2 cancel -1 declined, 0 Awaiting for confirm, 1 Awaiting for prepare produt, 2 On shipping ,3 Success
 	order_payment_method INT, -- 0 Thanh toan khi nhan hang, 1 Thanh toan VNPAY
 	order_payment_status INT DEFAULT(0) -- 0 Chua thanh toan, 1 Da thanh toan
@@ -245,7 +246,6 @@ CREATE TABLE Interaction_Blog_Comment
 	comment_id INT IDENTITY(1,1) PRIMARY KEY,
 	blog_id INT CONSTRAINT fk_blog_id_comment REFERENCES Blog(blog_id) ON DELETE CASCADE,
 	interaction_blog_id INT REFERENCES Interaction_Blog(interaction_blog_id),
-	[user_id] INT FOREIGN KEY ([user_id]) REFERENCES [Users]([user_id]),
 	comment_create_day DATE DEFAULT(GETDATE()),
 	comment NVARCHAR(1500)
 )
@@ -259,5 +259,6 @@ CREATE TABLE Payment
 	vnp_PayDate NVARCHAR(500),
 	vnp_OrderInfo NVARCHAR(500),
 	vnp_TransactionStatus NVARCHAR(500),
-	vnp_TxnRef NVARCHAR(500)
+	vnp_TxnRef NVARCHAR(500)	
+
 )
