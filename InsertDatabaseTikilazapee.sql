@@ -3391,7 +3391,6 @@ Tai nghe là thiết bị quan trọng giúp bạn tận hưởng âm nhạc và
 
 ','image/image_blog/blog_id11.jpg',
 '03/07/2024')
-
 INSERT INTO [dbo].[Interaction_Blog]
            ([user_id]
            ,[blog_id]
@@ -3557,9 +3556,8 @@ INSERT INTO [dbo].[Interaction_Blog_Comment]
 		    (8
            ,31
            ,'07/07/2024'
-           ,N'Cảm ơn bạn đã chia sẻ thông tin hữu ích này. Tôi đã học được rất nhiều điều mới từ bài viết của bạn.');
-
+           ,N'Cảm ơn bạn đã chia sẻ thông tin hữu ích này. Tôi đã học được rất nhiều điều mới từ bài viết của bạn.')
 UPDATE Account
 SET auth =1
 GO
-INSERT INTO ShoppingCart VALUES	(2),(3),(4),(5),(6),(7),(8), (9)
+INSERT INTO ShoppingCart VALUES	(2),(3),(4),(5),(6),(7),(8),(9)
